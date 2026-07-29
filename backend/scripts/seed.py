@@ -117,6 +117,16 @@ def seed_database():
         );
         """,
         """
+        DROP TABLE IF EXISTS inquiry_logs CASCADE;
+        CREATE TABLE IF NOT EXISTS inquiry_logs (
+            log_id VARCHAR(50) PRIMARY KEY,
+            customer_id VARCHAR(50),
+            input_text TEXT,
+            ai_action_failed TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        """,
+        """
         DROP TABLE IF EXISTS settlement CASCADE;
         CREATE TABLE IF NOT EXISTS settlement (
             settle_date DATE PRIMARY KEY,

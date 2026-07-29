@@ -20,10 +20,13 @@ class CouponRequest(BaseModel):
 @router.get("/segments/{segment}")
 async def get_customers(segment: str):
     """Get customers by segment (e.g., 'VIP', 'at-risk')."""
+    if segment.lower() == "all":
+        from backend.database.legacy import get_customers_from_db
+        return get_customers_from_db()
+
     mapping = {
         "vip": "VIP",
-        "at-risk": "이탈 위험 고객",
-        "all": "All"
+        "at-risk": "CHURN_RISK"
     }
     db_segment = mapping.get(segment.lower())
     if not db_segment:

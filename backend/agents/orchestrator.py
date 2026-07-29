@@ -4,6 +4,7 @@ Routes AI requests to the appropriate agent graph and handles caching.
 """
 from langchain_core.messages import HumanMessage
 from backend.workflows.cs_agent import cs_agent_graph
+from backend.workflows.manager_agent import manager_agent_graph
 from backend.core.cache import get_cached, set_cached
 
 
@@ -15,8 +16,7 @@ class AgentOrchestrator:
         # Registry of available graphs
         self.graphs = {
             "cs": cs_agent_graph,
-            # "review": review_agent_graph,  # Phase 3
-            # "copilot": copilot_agent_graph, # Phase 4
+            "manager": manager_agent_graph,
         }
 
     async def invoke(self, session_type: str, query: str, customer_id: str = None) -> dict:

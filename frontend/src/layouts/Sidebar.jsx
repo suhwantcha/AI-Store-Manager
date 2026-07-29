@@ -10,20 +10,22 @@ import {
   Users,
   TrendingUp,
   Settings,
-  Bot
+  Bot,
+  Archive
 } from 'lucide-react';
 
 const DRAWER_WIDTH = 260;
 
 const menuItems = [
   { path: '/', label: '대시보드', icon: <LayoutDashboard size={20} /> },
-  { path: '/cs', label: 'AI 고객 지원', icon: <MessageSquare size={20} /> },
+  { path: '/cs', label: '고객 지원', icon: <MessageSquare size={20} /> },
   { path: '/orders', label: '주문 관리', icon: <ShoppingCart size={20} /> },
-  { path: '/products', label: '상품/재고', icon: <Package size={20} /> },
-  { path: '/reviews', label: '리뷰 지능', icon: <Star size={20} /> },
+  { path: '/products', label: '상품 관리', icon: <Package size={20} /> },
+  { path: '/inventory', label: '재고 관리', icon: <Archive size={20} /> },
+  { path: '/reviews', label: '리뷰 분석', icon: <Star size={20} /> },
   { path: '/crm', label: '고객 CRM', icon: <Users size={20} /> },
   { path: '/analytics', label: '매출 분석', icon: <TrendingUp size={20} /> },
-  { path: '/copilot', label: 'AI 코파일럿', icon: <Bot size={20} /> },
+  { path: '/manager', label: 'AI 매니저', icon: <Bot size={20} /> },
 ];
 
 const Sidebar = () => {

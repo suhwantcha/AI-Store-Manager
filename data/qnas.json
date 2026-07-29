@@ -1,75 +1,3238 @@
 [
   {
-    "questionId": "QNA-2001",
-    "originProductNo": 1000001,
-    "productName": "순살 왕갈비탕 밀키트 650g",
-    "customerId": "loyal_customer_01",
-    "questionType": "PRODUCT",
-    "questionText": "이거 뼈가 다 발라져 있는 순살 맞죠? 아이가 먹을거라서요.",
-    "isAnswered": true,
-    "questionDate": "2025-11-10T10:00:00Z",
-    "answer": {
-      "answerContentId": "ANS-2001",
-      "answerText": "네, 고객님. 100% 순살로만 구성되어 아이가 먹기에도 좋습니다. 감사합니다.",
-      "answerDate": "2025-11-10T10:05:00Z"
-    }
-  },
-  {
-    "questionId": "QNA-2002",
-    "productOrderId": "PO-20251110-002",
-    "originProductNo": 1000004,
-    "productName": "어묵탕 오뎅탕 5팩 세트 250g",
-    "customerId": "complainer_01",
+    "questionId": "QNA-c8e5f5a7",
+    "originProductNo": 1000046,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 46)",
+    "customerId": "customer_092",
     "questionType": "DELIVERY",
-    "questionText": "어제 주문했는데 오늘 출발 안했네요. 오늘 출발 마감 몇시죠?",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
     "isAnswered": true,
-    "questionDate": "2025-11-11T14:30:00Z",
+    "questionDate": "2026-07-05T16:24:08Z",
     "answer": {
-      "answerContentId": "ANS-2002",
-      "answerText": "고객님, 저희 오늘출발 마감은 오후 2시입니다. 고객님 주문건은 2시 이후에 접수되어 익일(12일) 출고될 예정입니다. ㅠㅠ",
-      "answerDate": "2025-11-11T14:32:00Z"
+      "answerContentId": "ANS-c64519b6",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-05T17:24:08Z"
     }
   },
   {
-    "questionId": "QNA-2003",
-    "originProductNo": 1000018,
-    "productName": "매운 국물 떡볶이 400g (2인분)",
-    "customerId": "new_customer_01",
+    "questionId": "QNA-e2544ebb",
+    "originProductNo": 1000052,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 52)",
+    "customerId": "customer_177",
     "questionType": "PRODUCT",
-    "questionText": "이거 많이 매운가요? 맵기 정도가 궁금해요.",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-22T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2cd4fb28",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-22T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-fb88673d",
+    "originProductNo": 1000014,
+    "productName": "샤인머스켓 2kg 프리미엄 과일",
+    "customerId": "customer_124",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
     "isAnswered": false,
-    "questionDate": "2025-11-12T15:00:00Z",
+    "questionDate": "2026-07-07T18:24:08Z",
     "answer": null
   },
   {
-    "questionId": "QNA-2004",
-    "productOrderId": "PO-20251111-001",
-    "originProductNo": 1000003,
-    "productName": "치즈돈까스 2팩 (400g)",
-    "customerId": "hungry_student",
-    "questionType": "CLAIM",
-    "questionText": "돈까스 2팩 시켰는데 1팩만 왔어요. 어떻게 된거죠?",
+    "questionId": "QNA-f711ef57",
+    "originProductNo": 1000068,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 68)",
+    "customerId": "customer_170",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
     "isAnswered": true,
-    "questionDate": "2025-11-12T11:00:00Z",
+    "questionDate": "2026-06-06T08:24:08Z",
     "answer": {
-      "answerContentId": "ANS-2004",
-      "answerText": "죄송합니다 고객님. 누락된 1팩은 금일 바로 재발송 처리해드리겠습니다. (CS-REF-302 매뉴얼 연동)",
-      "answerDate": "2025-11-12T11:02:00Z"
+      "answerContentId": "ANS-9f37305b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-06T09:24:08Z"
     }
   },
   {
-    "questionId": "QNA-2005",
-    "originProductNo": 1000012,
-    "productName": "육즙가득 고기왕만두 1kg",
-    "customerId": "loyal_customer_01",
-    "questionType": "ETC",
-    "questionText": "이거 재입고 언제 되나요? 품절 풀리면 알려주세요.",
+    "questionId": "QNA-aa745e12",
+    "originProductNo": 1000022,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 22)",
+    "customerId": "customer_040",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
     "isAnswered": true,
-    "questionDate": "2025-11-12T09:00:00Z",
+    "questionDate": "2026-06-29T01:24:08Z",
     "answer": {
-      "answerContentId": "ANS-2005",
-      "answerText": "고객님, 해당 상품은 11월 15일 재입고 예정입니다. (CS-PROD-215 매뉴얼 연동)",
-      "answerDate": "2025-11-12T09:01:00Z"
+      "answerContentId": "ANS-769648b5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-29T02:24:08Z"
     }
+  },
+  {
+    "questionId": "QNA-781b379d",
+    "originProductNo": 1000040,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 40)",
+    "customerId": "customer_034",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-09T15:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-0cb1cc83",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-09T16:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-fc2ba99a",
+    "originProductNo": 1000042,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 42)",
+    "customerId": "customer_112",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-16T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-39a84c9b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-16T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e5386e71",
+    "originProductNo": 1000002,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트",
+    "customerId": "customer_103",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-06T23:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-7088c3d8",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-07T00:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9ac72411",
+    "originProductNo": 1000030,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 30)",
+    "customerId": "customer_083",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-16T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-50c7006b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-16T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-edd4dafc",
+    "originProductNo": 1000002,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트",
+    "customerId": "customer_029",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-26T18:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3aaa64d3",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-26T19:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-5e82acce",
+    "originProductNo": 1000030,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 30)",
+    "customerId": "customer_122",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-26T20:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-03ed917a",
+    "originProductNo": 1000030,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 30)",
+    "customerId": "customer_162",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a0055b6e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-399622d3",
+    "originProductNo": 1000018,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 18)",
+    "customerId": "customer_182",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-22T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-19d8df08",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-22T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-caa867c3",
+    "originProductNo": 1000031,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 31)",
+    "customerId": "customer_055",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-28T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-7130d457",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-28T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-694448bd",
+    "originProductNo": 1000067,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 67)",
+    "customerId": "customer_027",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-05T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-e39ccedb",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-05T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d1811219",
+    "originProductNo": 1000050,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 50)",
+    "customerId": "customer_061",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6e3f20dd",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-a5299021",
+    "originProductNo": 1000040,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 40)",
+    "customerId": "customer_187",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-16T06:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a500d732",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-16T07:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4167ca22",
+    "originProductNo": 1000032,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 32)",
+    "customerId": "customer_125",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T06:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2d177dba",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T07:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-5fd13e48",
+    "originProductNo": 1000050,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 50)",
+    "customerId": "customer_094",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fc97162a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7f16dc20",
+    "originProductNo": 1000039,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 39)",
+    "customerId": "customer_064",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-22T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-da3a5099",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-22T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-325db3ec",
+    "originProductNo": 1000041,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 41)",
+    "customerId": "customer_047",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T15:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d2371c71",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T16:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-a7e2364f",
+    "originProductNo": 1000010,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분",
+    "customerId": "customer_099",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-05T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-e57cfc1f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-05T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-62de7a69",
+    "originProductNo": 1000054,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 54)",
+    "customerId": "customer_071",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2f4a012e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-67508b72",
+    "originProductNo": 1000085,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 85)",
+    "customerId": "customer_035",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-11T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2670b7aa",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-11T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ad03ba78",
+    "originProductNo": 1000066,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 66)",
+    "customerId": "customer_191",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": false,
+    "questionDate": "2026-06-12T12:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-15fb598a",
+    "originProductNo": 1000091,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 91)",
+    "customerId": "customer_127",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-29T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f7ec4f74",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-29T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e4cbc955",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_142",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-09T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-53241186",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-09T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7379b663",
+    "originProductNo": 1000039,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 39)",
+    "customerId": "customer_113",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T00:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-74157512",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T01:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ce843a14",
+    "originProductNo": 1000086,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 86)",
+    "customerId": "customer_058",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-24T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3083a52e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-24T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-805df730",
+    "originProductNo": 1000011,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분",
+    "customerId": "customer_182",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-24T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-bf0afd71",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-24T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9a95f5c0",
+    "originProductNo": 1000064,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 64)",
+    "customerId": "customer_176",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-1c16739e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-c1af564f",
+    "originProductNo": 1000065,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 65)",
+    "customerId": "customer_121",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-06T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d2d83e71",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-06T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b141d089",
+    "originProductNo": 1000078,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 78)",
+    "customerId": "customer_056",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-16T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2648caa5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-16T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-94b30c88",
+    "originProductNo": 1000050,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 50)",
+    "customerId": "customer_052",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-09T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-dab59de4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-09T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-91a2c880",
+    "originProductNo": 1000071,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 71)",
+    "customerId": "customer_019",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-20T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a155f8e9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-20T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e6a036b3",
+    "originProductNo": 1000077,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 77)",
+    "customerId": "customer_057",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-24T15:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-226ccc31",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-24T16:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-2c0e0f11",
+    "originProductNo": 1000031,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 31)",
+    "customerId": "customer_169",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-07T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-690d68d4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-07T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-0e41b826",
+    "originProductNo": 1000027,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 27)",
+    "customerId": "customer_193",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-19T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-686b5bc7",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-19T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-42902194",
+    "originProductNo": 1000049,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 49)",
+    "customerId": "customer_100",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-16T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-66d3167a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-16T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-234db23e",
+    "originProductNo": 1000043,
+    "productName": "영광 굴비 10미 가정용 (옵션 43)",
+    "customerId": "customer_190",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-10T20:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-4ef638f9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-10T21:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ce5f487a",
+    "originProductNo": 1000026,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 26)",
+    "customerId": "customer_200",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-12T18:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d4ee856e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-12T19:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-f34be1ed",
+    "originProductNo": 1000051,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 51)",
+    "customerId": "customer_071",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T08:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-7f1e8da1",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T09:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-500d3d29",
+    "originProductNo": 1000069,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 69)",
+    "customerId": "customer_038",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-19T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c45e8c4b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-19T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-1ad81c94",
+    "originProductNo": 1000033,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 33)",
+    "customerId": "customer_021",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6a7b50d9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-13T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-26710950",
+    "originProductNo": 1000047,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 47)",
+    "customerId": "customer_076",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-08T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-750303aa",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-08T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7ea901de",
+    "originProductNo": 1000058,
+    "productName": "영광 굴비 10미 가정용 (옵션 58)",
+    "customerId": "customer_124",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-11T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f169bb8f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-11T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-dab7d62a",
+    "originProductNo": 1000028,
+    "productName": "영광 굴비 10미 가정용 (옵션 28)",
+    "customerId": "customer_068",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-29T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-7939d938",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-29T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-34bbf007",
+    "originProductNo": 1000023,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 23)",
+    "customerId": "customer_180",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-18T20:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-bc3245b7",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-18T21:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4f4d4d7a",
+    "originProductNo": 1000069,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 69)",
+    "customerId": "customer_056",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-07-07T13:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-be3b218e",
+    "originProductNo": 1000007,
+    "productName": "제주 고당도 감귤 3kg 박스",
+    "customerId": "customer_051",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-08T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-df0d9c3f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-08T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3a3dec2c",
+    "originProductNo": 1000051,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 51)",
+    "customerId": "customer_126",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": false,
+    "questionDate": "2026-07-27T01:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-fa8d23ad",
+    "originProductNo": 1000095,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 95)",
+    "customerId": "customer_056",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-18T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d7d90e0b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-18T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-8c3a095c",
+    "originProductNo": 1000027,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 27)",
+    "customerId": "customer_062",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-29T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-afadd963",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-29T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d70eac79",
+    "originProductNo": 1000040,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 40)",
+    "customerId": "customer_163",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-29T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-31d21157",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-29T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-5b92fae8",
+    "originProductNo": 1000056,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 56)",
+    "customerId": "customer_187",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-22T07:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-38940ae7",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-22T08:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-818c3123",
+    "originProductNo": 1000060,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 60)",
+    "customerId": "customer_047",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6d7d04fa",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-13T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-5cd40464",
+    "originProductNo": 1000072,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 72)",
+    "customerId": "customer_183",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-03T08:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-07a78e13",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-03T09:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d6a7df27",
+    "originProductNo": 1000002,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트",
+    "customerId": "customer_066",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d336af54",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-13T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-8a41ede1",
+    "originProductNo": 1000046,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 46)",
+    "customerId": "customer_120",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-05-30T03:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-e8f1f1b2",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_001",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-30T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-eb79e9b6",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-30T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-95fd4f9c",
+    "originProductNo": 1000048,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 48)",
+    "customerId": "customer_006",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-30T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-35033a33",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-30T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-32ca94e9",
+    "originProductNo": 1000044,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 44)",
+    "customerId": "customer_108",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6200fd2f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-13T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3b0112e9",
+    "originProductNo": 1000085,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 85)",
+    "customerId": "customer_031",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-05T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fba9100f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-05T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-66f2920b",
+    "originProductNo": 1000039,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 39)",
+    "customerId": "customer_096",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-11T19:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-5a202a4a",
+    "originProductNo": 1000068,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 68)",
+    "customerId": "customer_012",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-bd3a1359",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ff20fc5d",
+    "originProductNo": 1000036,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 36)",
+    "customerId": "customer_188",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-18T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fd273c92",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-18T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-c95a84d9",
+    "originProductNo": 1000017,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 17)",
+    "customerId": "customer_055",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-07-07T18:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-e4bce125",
+    "originProductNo": 1000075,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 75)",
+    "customerId": "customer_157",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-05-31T12:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-d8fedb21",
+    "originProductNo": 1000059,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 59)",
+    "customerId": "customer_168",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-07-21T04:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-3e454f72",
+    "originProductNo": 1000073,
+    "productName": "영광 굴비 10미 가정용 (옵션 73)",
+    "customerId": "customer_114",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-23T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c6336fd0",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-23T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4e4908f4",
+    "originProductNo": 1000079,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 79)",
+    "customerId": "customer_012",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-02T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-0097fa87",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-02T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4493c10d",
+    "originProductNo": 1000026,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 26)",
+    "customerId": "customer_140",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-215d8eb2",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-1198963b",
+    "originProductNo": 1000081,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 81)",
+    "customerId": "customer_164",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-01T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d9e03853",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-01T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-849f6c0a",
+    "originProductNo": 1000096,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 96)",
+    "customerId": "customer_139",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-15T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d4474990",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-15T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d1778780",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_089",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-24T07:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a6d18871",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-24T08:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-c2df844a",
+    "originProductNo": 1000025,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 25)",
+    "customerId": "customer_180",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-22T02:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-64e256a0",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-22T03:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-50bb1f13",
+    "originProductNo": 1000085,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 85)",
+    "customerId": "customer_169",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-08T17:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6dde8823",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-08T18:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3b42963a",
+    "originProductNo": 1000070,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 70)",
+    "customerId": "customer_100",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-06T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-e76123c4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-06T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9296cb2f",
+    "originProductNo": 1000078,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 78)",
+    "customerId": "customer_039",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-30T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6a19e611",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-30T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-18e527e2",
+    "originProductNo": 1000013,
+    "productName": "영광 굴비 10미 가정용",
+    "customerId": "customer_194",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-06-02T21:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-5d77e9ba",
+    "originProductNo": 1000088,
+    "productName": "영광 굴비 10미 가정용 (옵션 88)",
+    "customerId": "customer_137",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-10T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-95152299",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-10T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4ada7729",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_043",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-04T23:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-aa4ba7a7",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-05T00:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3632e0bc",
+    "originProductNo": 1000021,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 21)",
+    "customerId": "customer_044",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-19T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fdd750ac",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-19T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e0459167",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_188",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-26T07:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-63b53de7",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-26T08:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-54a35d0f",
+    "originProductNo": 1000088,
+    "productName": "영광 굴비 10미 가정용 (옵션 88)",
+    "customerId": "customer_014",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-22T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d16e1169",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-22T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d91f3684",
+    "originProductNo": 1000092,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 92)",
+    "customerId": "customer_153",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-12T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-8988ff33",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-12T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-31157a5e",
+    "originProductNo": 1000027,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 27)",
+    "customerId": "customer_169",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-05T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c892017b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-05T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ec84869f",
+    "originProductNo": 1000085,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 85)",
+    "customerId": "customer_154",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-14T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-e3b33b1a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-14T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ac3cb5bd",
+    "originProductNo": 1000046,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 46)",
+    "customerId": "customer_095",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-16T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3de0f631",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-16T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-797165fa",
+    "originProductNo": 1000079,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 79)",
+    "customerId": "customer_122",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-05T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-689a6f10",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-05T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7c8968c3",
+    "originProductNo": 1000095,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 95)",
+    "customerId": "customer_058",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-18T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-93349932",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-18T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-60e27e5d",
+    "originProductNo": 1000057,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 57)",
+    "customerId": "customer_008",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-04T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-67624b61",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-04T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-a00032be",
+    "originProductNo": 1000088,
+    "productName": "영광 굴비 10미 가정용 (옵션 88)",
+    "customerId": "customer_152",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": false,
+    "questionDate": "2026-06-22T07:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-e3132468",
+    "originProductNo": 1000021,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 21)",
+    "customerId": "customer_048",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-18T18:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-69690c1c",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-18T19:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-51f73a60",
+    "originProductNo": 1000078,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 78)",
+    "customerId": "customer_086",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-09T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-84bcca4b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-09T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-6e131e01",
+    "originProductNo": 1000071,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 71)",
+    "customerId": "customer_094",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-27T20:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f676fc23",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-27T21:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-eb90b8c9",
+    "originProductNo": 1000011,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분",
+    "customerId": "customer_170",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-07-11T10:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-5eab738e",
+    "originProductNo": 1000069,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 69)",
+    "customerId": "customer_198",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T18:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f46082d0",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T19:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-77965f7f",
+    "originProductNo": 1000060,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 60)",
+    "customerId": "customer_197",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-12T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c75b9a1a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-12T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-77513cef",
+    "originProductNo": 1000074,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 74)",
+    "customerId": "customer_026",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-07T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f79def30",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-07T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-2474036e",
+    "originProductNo": 1000025,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 25)",
+    "customerId": "customer_081",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-1b4413c5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e43a6be0",
+    "originProductNo": 1000009,
+    "productName": "매콤 제육볶음 밀키트 2인분",
+    "customerId": "customer_014",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-26T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3261dd09",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-26T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-35f67c85",
+    "originProductNo": 1000049,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 49)",
+    "customerId": "customer_081",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-29T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-b0d441d5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-29T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-91669c42",
+    "originProductNo": 1000097,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 97)",
+    "customerId": "customer_198",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-20T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-41ba4c57",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-20T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-92f5781c",
+    "originProductNo": 1000088,
+    "productName": "영광 굴비 10미 가정용 (옵션 88)",
+    "customerId": "customer_049",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-10T06:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-1d655c46",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-10T07:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-81d37bcb",
+    "originProductNo": 1000051,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 51)",
+    "customerId": "customer_200",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-29T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d5e342f0",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-29T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4db49ed1",
+    "originProductNo": 1000045,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 45)",
+    "customerId": "customer_142",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-18T06:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f20fff0e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-18T07:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d107a709",
+    "originProductNo": 1000058,
+    "productName": "영광 굴비 10미 가정용 (옵션 58)",
+    "customerId": "customer_098",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-28T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-29a457bc",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-28T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-690acd23",
+    "originProductNo": 1000054,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 54)",
+    "customerId": "customer_041",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-08T18:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d7a5cf7f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-08T19:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-72cad4c9",
+    "originProductNo": 1000041,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 41)",
+    "customerId": "customer_146",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-20T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-8ab1719b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-20T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-644597c4",
+    "originProductNo": 1000042,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 42)",
+    "customerId": "customer_169",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-17T17:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-07c4d1e5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-17T18:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-58b86017",
+    "originProductNo": 1000047,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 47)",
+    "customerId": "customer_189",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-19T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2c454bc1",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-19T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9e020e8f",
+    "originProductNo": 1000054,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 54)",
+    "customerId": "customer_025",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-07-04T15:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-0761093f",
+    "originProductNo": 1000066,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 66)",
+    "customerId": "customer_122",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-06-30T00:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-002f11bd",
+    "originProductNo": 1000002,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트",
+    "customerId": "customer_022",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-07-16T17:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-da2e5fa7",
+    "originProductNo": 1000044,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 44)",
+    "customerId": "customer_186",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-25T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-0181aec9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-25T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-eae7b8b8",
+    "originProductNo": 1000056,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 56)",
+    "customerId": "customer_199",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-09T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-9fc49f73",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-09T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-0092663e",
+    "originProductNo": 1000036,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 36)",
+    "customerId": "customer_057",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-15T19:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3a9ffe40",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-15T20:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-bfd18f6d",
+    "originProductNo": 1000012,
+    "productName": "춘천식 철판 닭갈비 1kg",
+    "customerId": "customer_014",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d9b7f127",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-288cfd76",
+    "originProductNo": 1000076,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 76)",
+    "customerId": "customer_070",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-20T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-497b6d3e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-20T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-c1b21e34",
+    "originProductNo": 1000084,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 84)",
+    "customerId": "customer_185",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-29T15:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-0b86bee2",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-29T16:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b79a0699",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_078",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-07-12T20:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-5dc32130",
+    "originProductNo": 1000001,
+    "productName": "순살 왕갈비탕 밀키트 650g",
+    "customerId": "customer_129",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-30T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-b5fdb93b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-30T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d7983d1c",
+    "originProductNo": 1000063,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 63)",
+    "customerId": "customer_013",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-20T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-38b6e8ce",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-20T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-00e30da5",
+    "originProductNo": 1000005,
+    "productName": "속초식 닭강정 순살 1박스",
+    "customerId": "customer_137",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-05-31T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c6f20531",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-31T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3e47a97a",
+    "originProductNo": 1000048,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 48)",
+    "customerId": "customer_096",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a8fedab5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ace371a3",
+    "originProductNo": 1000064,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 64)",
+    "customerId": "customer_010",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T08:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2c5f0b5c",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T09:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-24f10501",
+    "originProductNo": 1000016,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 16)",
+    "customerId": "customer_084",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-29T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3c304f86",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-29T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-268779aa",
+    "originProductNo": 1000032,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 32)",
+    "customerId": "customer_037",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-19T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-51d52c14",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-19T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-f802b3aa",
+    "originProductNo": 1000039,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 39)",
+    "customerId": "customer_181",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-21T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-28647737",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-21T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-94d98689",
+    "originProductNo": 1000065,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 65)",
+    "customerId": "customer_116",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-18T06:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d5fce871",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-18T07:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-6182cf4e",
+    "originProductNo": 1000047,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 47)",
+    "customerId": "customer_149",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-07T02:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-b14c5cb3",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-07T03:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4929bc31",
+    "originProductNo": 1000009,
+    "productName": "매콤 제육볶음 밀키트 2인분",
+    "customerId": "customer_133",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-22T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-193a5398",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-22T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-6324b2d4",
+    "originProductNo": 1000047,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 47)",
+    "customerId": "customer_158",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-280aa8af",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ee7e700f",
+    "originProductNo": 1000005,
+    "productName": "속초식 닭강정 순살 1박스",
+    "customerId": "customer_001",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-16T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-ee1aa229",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-16T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b5fbfafb",
+    "originProductNo": 1000048,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 48)",
+    "customerId": "customer_118",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-07T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-161ded1a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-07T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-51c5d3cd",
+    "originProductNo": 1000009,
+    "productName": "매콤 제육볶음 밀키트 2인분",
+    "customerId": "customer_179",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-05-31T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-8e953021",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-31T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-52e1cc90",
+    "originProductNo": 1000069,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 69)",
+    "customerId": "customer_027",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-02T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c5af7769",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-02T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7308477a",
+    "originProductNo": 1000011,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분",
+    "customerId": "customer_052",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-17T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-5a593feb",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-17T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-04f0853c",
+    "originProductNo": 1000081,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 81)",
+    "customerId": "customer_005",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-10T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-115fb6e6",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-10T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-cb69d839",
+    "originProductNo": 1000035,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 35)",
+    "customerId": "customer_050",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-04T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-ab9f9088",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-04T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3a3e5932",
+    "originProductNo": 1000008,
+    "productName": "통통한 바지락살 500g 찌개용",
+    "customerId": "customer_014",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-12T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-8c544b5f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-12T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-53011315",
+    "originProductNo": 1000053,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 53)",
+    "customerId": "customer_038",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-05-29T18:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-90de8c67",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-29T19:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-adecba79",
+    "originProductNo": 1000056,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 56)",
+    "customerId": "customer_072",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-07-07T22:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-b74d67b0",
+    "originProductNo": 1000035,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 35)",
+    "customerId": "customer_135",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-10T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-575164c3",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-10T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-60291a52",
+    "originProductNo": 1000052,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 52)",
+    "customerId": "customer_118",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T20:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-5a1a868b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-13T21:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-792a2348",
+    "originProductNo": 1000059,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 59)",
+    "customerId": "customer_062",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-02T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-8832da5d",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-02T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-13db1d93",
+    "originProductNo": 1000095,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 95)",
+    "customerId": "customer_119",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-10T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-42c674c3",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-10T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b1fb5007",
+    "originProductNo": 1000072,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 72)",
+    "customerId": "customer_064",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-28T15:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-dbe1c32e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-28T16:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-a957bdf2",
+    "originProductNo": 1000038,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 38)",
+    "customerId": "customer_105",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-18T20:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-5dafed45",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_043",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-29T12:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-ae342f59",
+    "originProductNo": 1000063,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 63)",
+    "customerId": "customer_089",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-06T02:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-dd1d5583",
+    "originProductNo": 1000039,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 39)",
+    "customerId": "customer_193",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-28T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c00e9c2a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-28T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b04ad80b",
+    "originProductNo": 1000026,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 26)",
+    "customerId": "customer_067",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-26T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f7e1f0b9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-26T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-420e90dc",
+    "originProductNo": 1000072,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 72)",
+    "customerId": "customer_172",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T23:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-347696d9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T00:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b16e71b4",
+    "originProductNo": 1000081,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 81)",
+    "customerId": "customer_059",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-10T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-e18444cd",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-10T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9f1c3d28",
+    "originProductNo": 1000032,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 32)",
+    "customerId": "customer_167",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-22T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-dac0e2f5",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-22T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-0506775a",
+    "originProductNo": 1000042,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 42)",
+    "customerId": "customer_176",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-19T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-b7a43b7a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-19T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4cd24829",
+    "originProductNo": 1000026,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 26)",
+    "customerId": "customer_078",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-05-31T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c2ed5c8d",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-31T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e00b527c",
+    "originProductNo": 1000031,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 31)",
+    "customerId": "customer_066",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-01T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3619751d",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-01T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-93d0853b",
+    "originProductNo": 1000049,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 49)",
+    "customerId": "customer_121",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-05-31T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d385db82",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-31T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-96e0e78a",
+    "originProductNo": 1000059,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 59)",
+    "customerId": "customer_189",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-22T03:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-c44f1e67",
+    "originProductNo": 1000089,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 89)",
+    "customerId": "customer_121",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-05-30T00:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-bc7a59eb",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-30T01:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b34bd148",
+    "originProductNo": 1000023,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 23)",
+    "customerId": "customer_072",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-14T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c49110ab",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-14T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-dd263d1a",
+    "originProductNo": 1000034,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 34)",
+    "customerId": "customer_065",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-26T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-0c075c30",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-26T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3833f10d",
+    "originProductNo": 1000065,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 65)",
+    "customerId": "customer_063",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-20T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-98ab30c9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-20T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ffc60ccb",
+    "originProductNo": 1000068,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 68)",
+    "customerId": "customer_016",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-19T14:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-71b0ead4",
+    "originProductNo": 1000029,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 29)",
+    "customerId": "customer_104",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-05T00:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6ab04334",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-05T01:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-45486282",
+    "originProductNo": 1000006,
+    "productName": "프리미엄 한우 채끝 스테이크 200g",
+    "customerId": "customer_084",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-05-30T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-60893915",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-30T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d4135297",
+    "originProductNo": 1000091,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 91)",
+    "customerId": "customer_178",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-20T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-ce2a58d6",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-20T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e17a9aa5",
+    "originProductNo": 1000035,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 35)",
+    "customerId": "customer_002",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-02T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-09bafc5e",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-02T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-70808cda",
+    "originProductNo": 1000084,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 84)",
+    "customerId": "customer_089",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-05-30T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-10647be4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-30T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-be1b71cf",
+    "originProductNo": 1000022,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 22)",
+    "customerId": "customer_191",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-12T08:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d0bb32b6",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-12T09:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-d08a3210",
+    "originProductNo": 1000005,
+    "productName": "속초식 닭강정 순살 1박스",
+    "customerId": "customer_139",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-02T02:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fada0b99",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-02T03:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b8c331d8",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_035",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-02T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-405946e2",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-02T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-aea66003",
+    "originProductNo": 1000012,
+    "productName": "춘천식 철판 닭갈비 1kg",
+    "customerId": "customer_115",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T20:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fadae0a9",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T21:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7d5faecd",
+    "originProductNo": 1000057,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 57)",
+    "customerId": "customer_158",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T17:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-44642c28",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T18:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9aff010f",
+    "originProductNo": 1000066,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 66)",
+    "customerId": "customer_010",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-15T07:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-0add08bb",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-15T08:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7ac57794",
+    "originProductNo": 1000083,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 83)",
+    "customerId": "customer_003",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-30T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a77bd666",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-30T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-70fc83fa",
+    "originProductNo": 1000067,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 67)",
+    "customerId": "customer_008",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": false,
+    "questionDate": "2026-06-27T16:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-8834ac0c",
+    "originProductNo": 1000003,
+    "productName": "부산 어묵 꼬치 세트 10꼬치",
+    "customerId": "customer_085",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-05-31T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-18ecc937",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-31T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-cdc38b79",
+    "originProductNo": 1000036,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 36)",
+    "customerId": "customer_033",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-07T02:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c6763dbc",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-07T03:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-62c27521",
+    "originProductNo": 1000008,
+    "productName": "통통한 바지락살 500g 찌개용",
+    "customerId": "customer_106",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-07T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-2d4885e0",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-07T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-77676f8b",
+    "originProductNo": 1000017,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 17)",
+    "customerId": "customer_128",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-30T16:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-8f767c12",
+    "originProductNo": 1000052,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 52)",
+    "customerId": "customer_047",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-16T00:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f8a9771a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-16T01:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-2ffea364",
+    "originProductNo": 1000009,
+    "productName": "매콤 제육볶음 밀키트 2인분",
+    "customerId": "customer_065",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-22T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-dc49a3ca",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-22T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-aaa29d61",
+    "originProductNo": 1000025,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 25)",
+    "customerId": "customer_007",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-12T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-db50a7b4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-12T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ffd1e8c6",
+    "originProductNo": 1000089,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 89)",
+    "customerId": "customer_159",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-06T06:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-316d8e0f",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-06T07:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-f7d7ba9f",
+    "originProductNo": 1000008,
+    "productName": "통통한 바지락살 500g 찌개용",
+    "customerId": "customer_148",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-22T09:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-3165a483",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-22T10:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-8e69941e",
+    "originProductNo": 1000077,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 77)",
+    "customerId": "customer_164",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-21T12:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-3eac9b87",
+    "originProductNo": 1000030,
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 30)",
+    "customerId": "customer_086",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-19T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-a27eeae0",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-19T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-e31997e2",
+    "originProductNo": 1000061,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 61)",
+    "customerId": "customer_148",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-01T07:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-b354f054",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-01T08:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4d049419",
+    "originProductNo": 1000023,
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 23)",
+    "customerId": "customer_037",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-07-20T18:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-a5967bb7",
+    "originProductNo": 1000088,
+    "productName": "영광 굴비 10미 가정용 (옵션 88)",
+    "customerId": "customer_079",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-08T07:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-9b95f447",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-08T08:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-667ff4e8",
+    "originProductNo": 1000085,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 85)",
+    "customerId": "customer_084",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-05T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-14dd46cb",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-05T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-422326f1",
+    "originProductNo": 1000100,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 100)",
+    "customerId": "customer_066",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-04T05:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-d24e7832",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-04T06:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-76113f31",
+    "originProductNo": 1000071,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 71)",
+    "customerId": "customer_062",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-01T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-eda5b8df",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-01T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3c2a042d",
+    "originProductNo": 1000010,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분",
+    "customerId": "customer_010",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-07T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-99e1ec8d",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-07T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-115e656b",
+    "originProductNo": 1000013,
+    "productName": "영광 굴비 10미 가정용",
+    "customerId": "customer_188",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-14T08:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-f4e85fd3",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-14T09:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-17168201",
+    "originProductNo": 1000040,
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 40)",
+    "customerId": "customer_091",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-18T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-41c5c930",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-18T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-bbc4e36e",
+    "originProductNo": 1000077,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 77)",
+    "customerId": "customer_126",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-02T04:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-c64f0cc3",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-02T05:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-73996574",
+    "originProductNo": 1000028,
+    "productName": "영광 굴비 10미 가정용 (옵션 28)",
+    "customerId": "customer_166",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-18T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-081f0406",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-18T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-985835bd",
+    "originProductNo": 1000089,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 89)",
+    "customerId": "customer_135",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-06-18T22:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-7b5db3bc",
+    "originProductNo": 1000006,
+    "productName": "프리미엄 한우 채끝 스테이크 200g",
+    "customerId": "customer_161",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-26T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-30be5b5c",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-26T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ef8ca3a6",
+    "originProductNo": 1000096,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 96)",
+    "customerId": "customer_023",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-12T16:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-05df576b",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-12T17:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-4917489a",
+    "originProductNo": 1000027,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 27)",
+    "customerId": "customer_031",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-20T15:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-1321f92a",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-20T16:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-88633008",
+    "originProductNo": 1000004,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용",
+    "customerId": "customer_055",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-05-30T10:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-fa427015",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-05-30T11:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-9a9f4641",
+    "originProductNo": 1000079,
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 79)",
+    "customerId": "customer_046",
+    "questionType": "CLAIM",
+    "questionText": "환불 처리 언제 되나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-30T08:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-8a7ac0e4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-30T09:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-19264b7c",
+    "originProductNo": 1000011,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분",
+    "customerId": "customer_021",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-03T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-278cb54d",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-03T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-988aa281",
+    "originProductNo": 1000080,
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "customerId": "customer_021",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-14T12:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-01842a30",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-14T13:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-88b43966",
+    "originProductNo": 1000086,
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 86)",
+    "customerId": "customer_064",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": false,
+    "questionDate": "2026-06-17T20:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-476421a1",
+    "originProductNo": 1000093,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 93)",
+    "customerId": "customer_125",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-25T21:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-23045115",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-25T22:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b9b6a999",
+    "originProductNo": 1000059,
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 59)",
+    "customerId": "customer_060",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-26T03:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-40b886b8",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-26T04:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-402d629b",
+    "originProductNo": 1000032,
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 32)",
+    "customerId": "customer_142",
+    "questionType": "CLAIM",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-12T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-897ae3a4",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-12T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-43db3965",
+    "originProductNo": 1000096,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 96)",
+    "customerId": "customer_095",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-07-02T23:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-02474d22",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-03T00:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-b0f95296",
+    "originProductNo": 1000003,
+    "productName": "부산 어묵 꼬치 세트 10꼬치",
+    "customerId": "customer_026",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": false,
+    "questionDate": "2026-06-16T07:24:08Z",
+    "answer": null
+  },
+  {
+    "questionId": "QNA-fa74abc1",
+    "originProductNo": 1000054,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 54)",
+    "customerId": "customer_081",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-07-29T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-4de00a24",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-29T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-ddb52a4f",
+    "originProductNo": 1000081,
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 81)",
+    "customerId": "customer_100",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": true,
+    "questionDate": "2026-06-13T13:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-242049e2",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-13T14:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-3354b8b8",
+    "originProductNo": 1000033,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 33)",
+    "customerId": "customer_057",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-11T14:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-008ba299",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-11T15:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-7840074e",
+    "originProductNo": 1000087,
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 87)",
+    "customerId": "customer_114",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-09T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-6e3762ce",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-09T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-47c44224",
+    "originProductNo": 1000031,
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 31)",
+    "customerId": "customer_021",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-06-28T01:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-309662fd",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-28T02:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-214731dd",
+    "originProductNo": 1000054,
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 54)",
+    "customerId": "customer_046",
+    "questionType": "DELIVERY",
+    "questionText": "배송 언제 되나요? 너무 느려요.",
+    "isAnswered": true,
+    "questionDate": "2026-06-21T11:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-ebbe9490",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-06-21T12:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-462fd194",
+    "originProductNo": 1000052,
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 52)",
+    "customerId": "customer_147",
+    "questionType": "PRODUCT",
+    "questionText": "이거 조리 어떻게 해야 제일 맛있나요?",
+    "isAnswered": true,
+    "questionDate": "2026-07-13T22:24:08Z",
+    "answer": {
+      "answerContentId": "ANS-ee15e108",
+      "answerText": "네 고객님, 문의하신 내용 확인했습니다. 감사합니다.",
+      "answerDate": "2026-07-13T23:24:08Z"
+    }
+  },
+  {
+    "questionId": "QNA-17d44fe2",
+    "originProductNo": 1000018,
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 18)",
+    "customerId": "customer_036",
+    "questionType": "DELIVERY",
+    "questionText": "문의드립니다.",
+    "isAnswered": false,
+    "questionDate": "2026-07-08T13:24:08Z",
+    "answer": null
   }
 ]

@@ -7,8 +7,8 @@ from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-# Project root is two levels up from this file (backend/config.py -> project root)
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+# Project root is three levels up from this file (backend/config/settings.py -> backend/config -> backend -> project root)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 class Settings(BaseSettings):

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Divider, CircularProgress, Alert, Chip, Stack } from '@mui/material';
+import { Box, Typography, Divider, CircularProgress, Alert, Chip, Stack, Grid } from '@mui/material';
 import { User, ShoppingBag, AlertTriangle, MessageCircle, BookOpen } from 'lucide-react';
 import apiClient from '../../api/client';
 

@@ -1,25 +1,35 @@
 {
   "storeInfo": {
-    "storeName": "서강몰",
+    "storeName": "서강몰 (Seokang Mall)",
     "ceoName": "서사장",
-    "account": "seokang_ceo"
+    "account": "seokang_ceo",
+    "businessRegistrationNumber": "123-45-67890",
+    "contactEmail": "contact@seokangmall.com"
   },
   "deliveryPolicy": {
     "baseFee": 3500,
     "freeConditionalAmount": 40000,
-    "thisDayDispatchCutoff": "14:00"
+    "thisDayDispatchCutoff": "14:00",
+    "deliveryDays": "평일 (월~금) 출고, 주말/공휴일 휴무",
+    "specialRegionsFee": {
+      "jeju": 3000,
+      "islands": 5000
+    }
   },
   "claimPolicy": {
-    "returnAddress": "서울시 마포구 백범로 35 (서강빌딩) 5층 서강푸드",
+    "returnAddress": "서울시 마포구 백범로 35 (서강빌딩) 5층 서강푸드 물류센터",
     "returnFee": 7000,
-    "exchangeFee": 7000
+    "exchangeFee": 7000,
+    "returnPeriod": "상품 수령 후 7일 이내",
+    "spoilageReturnPolicy": "신선식품 특성상 단순 변심에 의한 교환/환불 불가. 제품 하자의 경우 사진 확인 후 100% 교환/환불 처리."
   },
   "csInfo": {
-    "csNumber": "1588-0000",
-    "csOperatingHours": "평일 10:00 - 17:00 (주말, 공휴일 휴무)"
+    "csNumber": "1588-1234",
+    "csOperatingHours": "평일 10:00 - 17:00 (점심시간 12:30 - 13:30)",
+    "weekendOperation": false
   },
   "logisticsInfo": {
     "mainDeliveryCompany": "CJ대한통운",
-    "outboundLocation": "경기도 용인시 물류센터 A"
+    "outboundLocation": "서강푸드 통합물류센터 (경기 김포)"
   }
 }

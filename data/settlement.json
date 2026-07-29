@@ -1,44 +1,182 @@
 [
   {
-    "settleDate": "2025-11-06",
-    "totalPaymentAmount": 875400,
-    "totalCommission": -78786,
-    "totalSettlementAmount": 796614
+    "settleDate": "2026-06-29",
+    "totalPaymentAmount": 2627666,
+    "totalCommission": 131383,
+    "totalSettlementAmount": 2496283
   },
   {
-    "settleDate": "2025-11-07",
-    "totalPaymentAmount": 912300,
-    "totalCommission": -82107,
-    "totalSettlementAmount": 830193
+    "settleDate": "2026-06-30",
+    "totalPaymentAmount": 2417386,
+    "totalCommission": 120869,
+    "totalSettlementAmount": 2296517
   },
   {
-    "settleDate": "2025-11-08",
-    "totalPaymentAmount": 1250100,
-    "totalCommission": -112509,
-    "totalSettlementAmount": 1137591
+    "settleDate": "2026-07-01",
+    "totalPaymentAmount": 2672288,
+    "totalCommission": 133614,
+    "totalSettlementAmount": 2538674
   },
   {
-    "settleDate": "2025-11-09",
-    "totalPaymentAmount": 1170500,
-    "totalCommission": -105345,
-    "totalSettlementAmount": 1065155
+    "settleDate": "2026-07-02",
+    "totalPaymentAmount": 3071111,
+    "totalCommission": 153555,
+    "totalSettlementAmount": 2917556
   },
   {
-    "settleDate": "2025-11-10",
-    "totalPaymentAmount": 750200,
-    "totalCommission": -67518,
-    "totalSettlementAmount": 682682
+    "settleDate": "2026-07-03",
+    "totalPaymentAmount": 3586914,
+    "totalCommission": 179345,
+    "totalSettlementAmount": 3407569
   },
   {
-    "settleDate": "2025-11-11",
-    "totalPaymentAmount": 820000,
-    "totalCommission": -73800,
-    "totalSettlementAmount": 746200
+    "settleDate": "2026-07-04",
+    "totalPaymentAmount": 5309115,
+    "totalCommission": 265455,
+    "totalSettlementAmount": 5043660
   },
   {
-    "settleDate": "2025-11-12",
-    "totalPaymentAmount": 930500,
-    "totalCommission": -83745,
-    "totalSettlementAmount": 846755
+    "settleDate": "2026-07-05",
+    "totalPaymentAmount": 5039652,
+    "totalCommission": 251982,
+    "totalSettlementAmount": 4787670
+  },
+  {
+    "settleDate": "2026-07-06",
+    "totalPaymentAmount": 2538333,
+    "totalCommission": 126916,
+    "totalSettlementAmount": 2411417
+  },
+  {
+    "settleDate": "2026-07-07",
+    "totalPaymentAmount": 2482111,
+    "totalCommission": 124105,
+    "totalSettlementAmount": 2358006
+  },
+  {
+    "settleDate": "2026-07-08",
+    "totalPaymentAmount": 2660027,
+    "totalCommission": 133001,
+    "totalSettlementAmount": 2527026
+  },
+  {
+    "settleDate": "2026-07-09",
+    "totalPaymentAmount": 3384843,
+    "totalCommission": 169242,
+    "totalSettlementAmount": 3215601
+  },
+  {
+    "settleDate": "2026-07-10",
+    "totalPaymentAmount": 4468330,
+    "totalCommission": 223416,
+    "totalSettlementAmount": 4244914
+  },
+  {
+    "settleDate": "2026-07-11",
+    "totalPaymentAmount": 5190144,
+    "totalCommission": 259507,
+    "totalSettlementAmount": 4930637
+  },
+  {
+    "settleDate": "2026-07-12",
+    "totalPaymentAmount": 5628018,
+    "totalCommission": 281400,
+    "totalSettlementAmount": 5346618
+  },
+  {
+    "settleDate": "2026-07-13",
+    "totalPaymentAmount": 3005917,
+    "totalCommission": 150295,
+    "totalSettlementAmount": 2855622
+  },
+  {
+    "settleDate": "2026-07-14",
+    "totalPaymentAmount": 2696466,
+    "totalCommission": 134823,
+    "totalSettlementAmount": 2561643
+  },
+  {
+    "settleDate": "2026-07-15",
+    "totalPaymentAmount": 3895851,
+    "totalCommission": 194792,
+    "totalSettlementAmount": 3701059
+  },
+  {
+    "settleDate": "2026-07-16",
+    "totalPaymentAmount": 4061510,
+    "totalCommission": 203075,
+    "totalSettlementAmount": 3858435
+  },
+  {
+    "settleDate": "2026-07-17",
+    "totalPaymentAmount": 5263750,
+    "totalCommission": 263187,
+    "totalSettlementAmount": 5000563
+  },
+  {
+    "settleDate": "2026-07-18",
+    "totalPaymentAmount": 6350757,
+    "totalCommission": 317537,
+    "totalSettlementAmount": 6033220
+  },
+  {
+    "settleDate": "2026-07-19",
+    "totalPaymentAmount": 8462586,
+    "totalCommission": 423129,
+    "totalSettlementAmount": 8039457
+  },
+  {
+    "settleDate": "2026-07-20",
+    "totalPaymentAmount": 4284787,
+    "totalCommission": 214239,
+    "totalSettlementAmount": 4070548
+  },
+  {
+    "settleDate": "2026-07-21",
+    "totalPaymentAmount": 3697845,
+    "totalCommission": 184892,
+    "totalSettlementAmount": 3512953
+  },
+  {
+    "settleDate": "2026-07-22",
+    "totalPaymentAmount": 4504247,
+    "totalCommission": 225212,
+    "totalSettlementAmount": 4279035
+  },
+  {
+    "settleDate": "2026-07-23",
+    "totalPaymentAmount": 3686425,
+    "totalCommission": 184321,
+    "totalSettlementAmount": 3502104
+  },
+  {
+    "settleDate": "2026-07-24",
+    "totalPaymentAmount": 6377103,
+    "totalCommission": 318855,
+    "totalSettlementAmount": 6058248
+  },
+  {
+    "settleDate": "2026-07-25",
+    "totalPaymentAmount": 7518936,
+    "totalCommission": 375946,
+    "totalSettlementAmount": 7142990
+  },
+  {
+    "settleDate": "2026-07-26",
+    "totalPaymentAmount": 6262158,
+    "totalCommission": 313107,
+    "totalSettlementAmount": 5949051
+  },
+  {
+    "settleDate": "2026-07-27",
+    "totalPaymentAmount": 6619036,
+    "totalCommission": 330951,
+    "totalSettlementAmount": 6288085
+  },
+  {
+    "settleDate": "2026-07-28",
+    "totalPaymentAmount": 7024027,
+    "totalCommission": 351201,
+    "totalSettlementAmount": 6672826
   }
 ]

@@ -23,23 +23,21 @@ const Chat = ({ inquiry }) => {
     setMessages([{ sender: 'user', text: inquiry.question_text }]);
     setInput('');
     setAiSuggestion('');
-    setSuggestionLoading(true);
-
-    const fetchSuggestion = async () => {
-      try {
-        const response = await apiClient.get(`/cs/suggestion?query=${encodeURIComponent(inquiry.question_text)}`);
-        setAiSuggestion(response.data.suggestion);
-      } catch (error) {
-        console.error('Failed to fetch AI suggestion:', error);
-        setAiSuggestion('AI 답변 제안을 가져오는 데 실패했습니다.');
-      } finally {
-        setSuggestionLoading(false);
-      }
-    };
-
-    fetchSuggestion();
-
   }, [inquiry]);
+
+  const fetchSuggestion = async () => {
+    if (!inquiry) return;
+    setSuggestionLoading(true);
+    try {
+      const response = await apiClient.post('/cs/suggest', { question: inquiry.question_text });
+      setAiSuggestion(response.data.suggestion);
+    } catch (error) {
+      console.error('Failed to fetch AI suggestion:', error);
+      setAiSuggestion('AI 답변 제안을 가져오는 데 실패했습니다.');
+    } finally {
+      setSuggestionLoading(false);
+    }
+  };
 
 
   const handleSend = async () => {
@@ -52,8 +50,8 @@ const Chat = ({ inquiry }) => {
 
     try {
       const payload = {
-        customer_id: inquiry.customer_id,
-        query: input, // 상담원이 직접 입력한 내용으로 쿼리
+        customerId: inquiry.customer_id,
+        message: input, 
       };
 
       const response = await apiClient.post('/cs/chat', payload);
@@ -172,13 +170,26 @@ const Chat = ({ inquiry }) => {
 
       {/* AI 답변 제안 및 도구 영역 */}
       <Box sx={{ p: 2, borderTop: '1px solid rgba(255,255,255,0.05)', bgcolor: 'rgba(0,0,0,0.1)' }}>
-        <Typography variant="subtitle2" sx={{ mb: 1, fontWeight: 'bold' }}>
-          🤖 AI 답변 제안
-        </Typography>
-        <Box sx={{ p: 1.5, bgcolor: 'action.hover', borderRadius: 1, mb: 1, minHeight: '50px' }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
+          <Typography variant="subtitle2" sx={{ fontWeight: 'bold' }}>
+            🤖 AI 답변 제안
+          </Typography>
+          {!aiSuggestion && (
+            <Button 
+              size="small" 
+              variant="outlined" 
+              onClick={fetchSuggestion}
+              disabled={suggestionLoading || !inquiry}
+              sx={{ borderColor: 'rgba(255,255,255,0.2)', color: 'text.secondary' }}
+            >
+              {suggestionLoading ? '생성 중...' : '✨ AI 답변 생성'}
+            </Button>
+          )}
+        </Box>
+        <Box sx={{ p: 1.5, bgcolor: 'action.hover', borderRadius: 1, mb: 1, minHeight: '50px', display: 'flex', alignItems: 'center' }}>
             {suggestionLoading ? <CircularProgress size={20} /> : (
-                <Typography variant="body2">
-                    {aiSuggestion}
+                <Typography variant="body2" sx={{ color: aiSuggestion ? 'inherit' : 'text.secondary' }}>
+                    {aiSuggestion || 'AI 답변 생성을 요청해 보세요.'}
                 </Typography>
             )}
         </Box>
@@ -192,7 +203,7 @@ const Chat = ({ inquiry }) => {
             ✅ AI 답변 사용
           </Button>
           <div>
-            <IconButton size="small" onClick={() => alert('피드백 기능이 호출됩니다.')} disabled={suggestionLoading}>
+            <IconButton size="small" onClick={() => alert('피드백 기능이 호출됩니다.')} disabled={suggestionLoading || !aiSuggestion}>
               <ThumbDown fontSize="small" />
             </IconButton>
             <Button 

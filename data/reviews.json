@@ -1,92 +1,1570 @@
 [
   {
-    "review_id": "REV-1001",
-    "customer_id": "loyal_customer_01",
-    "product_id": 1000001,
+    "review_id": "REV-3fcf708c",
+    "customer_id": "customer_059",
+    "product_id": 1000032,
     "rating": 5,
-    "review_text": "순살 왕갈비탕 정말 맛있네요. 국물도 진하고 고기도 부드러워서 아이가 정말 잘 먹었어요. 포장도 꼼꼼하게 와서 하나도 안 샜네요. 재구매의사 100%입니다!",
-    "image_url": "https://image.example.com/review_galbi_good.jpg",
-    "created_at": "2025-11-13T10:00:00Z"
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-18T04:24:07Z"
   },
   {
-    "review_id": "REV-1002",
-    "customer_id": "complainer_01",
-    "product_id": 1000016,
+    "review_id": "REV-f95abef6",
+    "customer_id": "customer_140",
+    "product_id": 1000061,
     "rating": 1,
-    "review_text": "한돈 메추리알 장조림 오늘 받았는데, 뚜껑 여니까 바로 시큼한 냄새가 나고 곰팡이가 피어있습니다. 유통기한은 3일이나 남았는데 이게 뭔가요? 사진 첨부합니다. 당장 환불해주세요.",
-    "image_url": "https://image.example.com/review_jangjorim_mold.jpg",
-    "created_at": "2025-11-13T14:30:00Z"
+    "review_text": "맛이 예전같지 않아요.",
+    "created_at": "2026-06-05T23:24:08Z"
   },
   {
-    "review_id": "REV-1003",
-    "customer_id": "hungry_student",
-    "product_id": 1000003,
-    "rating": 3,
-    "review_text": "치즈돈까스 2팩 시켰는데 1팩만 왔어요... 맛은 있는데 수량이 빠져서 기분이 별로네요. 확인 좀 해주세요. (QNA-2004 문의랑 연결됨)",
-    "image_url": null,
-    "created_at": "2025-11-12T11:05:00Z"
-  },
-  {
-    "review_id": "REV-1004",
-    "customer_id": "new_customer_01",
-    "product_id": 1000019,
-    "rating": 4,
-    "review_text": "추억의 옛날 핫도그 맛있어요. 에어프라이어에 돌리니까 바삭하고 좋네요. 근데 가격이 조금 비싼 것 같아요. 할인할 때 쟁여놔야겠어요.",
-    "image_url": null,
-    "created_at": "2025-11-12T17:00:00Z"
-  },
-  {
-    "review_id": "REV-1005",
-    "customer_id": "camping_king",
-    "product_id": 1000002,
+    "review_id": "REV-d64272c3",
+    "customer_id": "customer_005",
+    "product_id": 1000035,
     "rating": 5,
-    "review_text": "순대국 캠핑가서 먹으려고 샀는데 대박입니다. 300g이라 양이 적을 줄 알았는데 물 붓고 끓이니까 딱 1인분으로 좋아요. 냄새도 안 나고 최고!",
-    "image_url": "https://image.example.com/review_sundae_camping.jpg",
-    "created_at": "2025-11-12T18:00:00Z"
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-13T20:24:08Z"
   },
   {
-    "review_id": "REV-1006",
-    "customer_id": "complainer_01",
-    "product_id": 1000010,
-    "rating": 2,
-    "review_text": "김치찌개 밀키트를 받았는데 포장 비닐이 터져서 국물이 다 샜어요. 박스가 온통 김치 국물이네요. 아이스팩도 다 녹아서 왔고요. 배송이 문제인 건지 포장이 문제인 건지...",
-    "image_url": "https://image.example.com/review_kimchi_leak.jpg",
-    "created_at": "2025-11-13T11:20:00Z"
+    "review_id": "REV-6307c19e",
+    "customer_id": "customer_112",
+    "product_id": 1000011,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-23T09:24:08Z"
   },
   {
-    "review_id": "REV-1007",
-    "customer_id": "spicy_lover",
-    "product_id": 1000005,
+    "review_id": "REV-134d6713",
+    "customer_id": "customer_040",
+    "product_id": 1000022,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-07T01:24:08Z"
+  },
+  {
+    "review_id": "REV-e6efdcce",
+    "customer_id": "customer_114",
+    "product_id": 1000039,
     "rating": 3,
-    "review_text": "양념 쭈꾸미볶음... '매운맛'이라고 해서 샀는데 생각보다 너무 매워요. 맵찔이들은 절대 못 먹을 듯. 콩나물이랑 같이 볶아도 맵네요. 맛은 있는데 너무 매워서 별로였어요.",
-    "image_url": null,
-    "created_at": "2025-11-13T19:00:00Z"
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-16T06:24:08Z"
   },
   {
-    "review_id": "REV-1008",
-    "customer_id": "loyal_customer_01",
+    "review_id": "REV-d4ad276b",
+    "customer_id": "customer_083",
+    "product_id": 1000030,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-19T16:24:08Z"
+  },
+  {
+    "review_id": "REV-5bf7af93",
+    "customer_id": "customer_070",
+    "product_id": 1000038,
+    "rating": 3,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-03T10:24:08Z"
+  },
+  {
+    "review_id": "REV-f24c9caa",
+    "customer_id": "customer_026",
+    "product_id": 1000036,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-01T23:24:08Z"
+  },
+  {
+    "review_id": "REV-8248508d",
+    "customer_id": "customer_191",
+    "product_id": 1000063,
+    "rating": 2,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-11T23:24:08Z"
+  },
+  {
+    "review_id": "REV-cf808ae8",
+    "customer_id": "customer_182",
+    "product_id": 1000035,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-12T05:24:08Z"
+  },
+  {
+    "review_id": "REV-171fafc1",
+    "customer_id": "customer_182",
+    "product_id": 1000018,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-26T22:24:08Z"
+  },
+  {
+    "review_id": "REV-c3a62107",
+    "customer_id": "customer_148",
+    "product_id": 1000015,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-13T11:24:08Z"
+  },
+  {
+    "review_id": "REV-084f650e",
+    "customer_id": "customer_003",
+    "product_id": 1000048,
+    "rating": 1,
+    "review_text": "배송이 너무 느렸습니다.",
+    "created_at": "2026-07-11T09:24:08Z"
+  },
+  {
+    "review_id": "REV-db224683",
+    "customer_id": "customer_088",
+    "product_id": 1000096,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-09T11:24:08Z"
+  },
+  {
+    "review_id": "REV-ac2b2436",
+    "customer_id": "customer_064",
+    "product_id": 1000057,
+    "rating": 1,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-06T16:24:08Z"
+  },
+  {
+    "review_id": "REV-9a70e10b",
+    "customer_id": "customer_200",
+    "product_id": 1000004,
+    "rating": 3,
+    "review_text": "포장이 터져서 왔네요.",
+    "created_at": "2026-06-26T11:24:08Z"
+  },
+  {
+    "review_id": "REV-cce0f8c7",
+    "customer_id": "customer_064",
+    "product_id": 1000039,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-27T13:24:08Z"
+  },
+  {
+    "review_id": "REV-b83ac465",
+    "customer_id": "customer_025",
+    "product_id": 1000057,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-15T23:24:08Z"
+  },
+  {
+    "review_id": "REV-e0e793bb",
+    "customer_id": "customer_063",
+    "product_id": 1000011,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-17T00:24:08Z"
+  },
+  {
+    "review_id": "REV-ee1218f3",
+    "customer_id": "customer_037",
+    "product_id": 1000046,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-24T06:24:08Z"
+  },
+  {
+    "review_id": "REV-1c4ae4d3",
+    "customer_id": "customer_164",
+    "product_id": 1000036,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-22T10:24:08Z"
+  },
+  {
+    "review_id": "REV-6e55910a",
+    "customer_id": "customer_142",
+    "product_id": 1000080,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-11T13:24:08Z"
+  },
+  {
+    "review_id": "REV-f8d01959",
+    "customer_id": "customer_108",
+    "product_id": 1000035,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-22T06:24:08Z"
+  },
+  {
+    "review_id": "REV-b986e364",
+    "customer_id": "customer_181",
+    "product_id": 1000073,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-08T10:24:08Z"
+  },
+  {
+    "review_id": "REV-20e16401",
+    "customer_id": "customer_119",
+    "product_id": 1000015,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-15T13:24:08Z"
+  },
+  {
+    "review_id": "REV-05d33064",
+    "customer_id": "customer_193",
+    "product_id": 1000085,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-10T04:24:08Z"
+  },
+  {
+    "review_id": "REV-f610c661",
+    "customer_id": "customer_176",
+    "product_id": 1000064,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-21T10:24:08Z"
+  },
+  {
+    "review_id": "REV-2df05d6f",
+    "customer_id": "customer_121",
+    "product_id": 1000065,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-08T12:24:08Z"
+  },
+  {
+    "review_id": "REV-a29318cf",
+    "customer_id": "customer_052",
+    "product_id": 1000050,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-11T01:24:08Z"
+  },
+  {
+    "review_id": "REV-0d000016",
+    "customer_id": "customer_017",
+    "product_id": 1000060,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-17T09:24:08Z"
+  },
+  {
+    "review_id": "REV-29b9934a",
+    "customer_id": "customer_190",
+    "product_id": 1000085,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-21T03:24:08Z"
+  },
+  {
+    "review_id": "REV-9c1edcf4",
+    "customer_id": "customer_169",
+    "product_id": 1000031,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-13T04:24:08Z"
+  },
+  {
+    "review_id": "REV-e5c28da7",
+    "customer_id": "customer_162",
+    "product_id": 1000051,
+    "rating": 2,
+    "review_text": "맛이 예전같지 않아요.",
+    "created_at": "2026-07-07T17:24:08Z"
+  },
+  {
+    "review_id": "REV-f4306920",
+    "customer_id": "customer_096",
+    "product_id": 1000056,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-14T12:24:08Z"
+  },
+  {
+    "review_id": "REV-6b64dfa0",
+    "customer_id": "customer_193",
+    "product_id": 1000027,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-27T13:24:08Z"
+  },
+  {
+    "review_id": "REV-7e581fc8",
+    "customer_id": "customer_117",
+    "product_id": 1000034,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-05T12:24:08Z"
+  },
+  {
+    "review_id": "REV-12d52ae0",
+    "customer_id": "customer_136",
+    "product_id": 1000015,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-16T15:24:08Z"
+  },
+  {
+    "review_id": "REV-f933dc86",
+    "customer_id": "customer_180",
+    "product_id": 1000062,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-04T12:24:08Z"
+  },
+  {
+    "review_id": "REV-4ceab8ad",
+    "customer_id": "customer_128",
+    "product_id": 1000020,
+    "rating": 2,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-22T19:24:08Z"
+  },
+  {
+    "review_id": "REV-488c02b7",
+    "customer_id": "customer_158",
+    "product_id": 1000016,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-15T20:24:08Z"
+  },
+  {
+    "review_id": "REV-549b73bc",
+    "customer_id": "customer_193",
+    "product_id": 1000016,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-08T20:24:08Z"
+  },
+  {
+    "review_id": "REV-0cb791d7",
+    "customer_id": "customer_038",
+    "product_id": 1000069,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-26T14:24:08Z"
+  },
+  {
+    "review_id": "REV-bff330da",
+    "customer_id": "customer_050",
+    "product_id": 1000056,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-11T09:24:08Z"
+  },
+  {
+    "review_id": "REV-fbb48a26",
+    "customer_id": "customer_060",
+    "product_id": 1000017,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-09T05:24:08Z"
+  },
+  {
+    "review_id": "REV-8b51aec7",
+    "customer_id": "customer_056",
+    "product_id": 1000069,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-10T13:24:08Z"
+  },
+  {
+    "review_id": "REV-85c7d3af",
+    "customer_id": "customer_007",
+    "product_id": 1000064,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-05T21:24:08Z"
+  },
+  {
+    "review_id": "REV-9ee8fa0c",
+    "customer_id": "customer_114",
+    "product_id": 1000020,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-23T14:24:08Z"
+  },
+  {
+    "review_id": "REV-6410b1f0",
+    "customer_id": "customer_093",
+    "product_id": 1000090,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-23T05:24:08Z"
+  },
+  {
+    "review_id": "REV-ab7211b7",
+    "customer_id": "customer_164",
+    "product_id": 1000037,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-12T22:24:08Z"
+  },
+  {
+    "review_id": "REV-fd076168",
+    "customer_id": "customer_015",
+    "product_id": 1000050,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-23T10:24:08Z"
+  },
+  {
+    "review_id": "REV-0af38fa7",
+    "customer_id": "customer_062",
+    "product_id": 1000027,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-05T09:24:08Z"
+  },
+  {
+    "review_id": "REV-a54fcfef",
+    "customer_id": "customer_163",
+    "product_id": 1000040,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-01T14:24:08Z"
+  },
+  {
+    "review_id": "REV-64e7323a",
+    "customer_id": "customer_181",
+    "product_id": 1000023,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-13T13:24:08Z"
+  },
+  {
+    "review_id": "REV-45cb3794",
+    "customer_id": "customer_066",
+    "product_id": 1000020,
+    "rating": 1,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-28T03:24:08Z"
+  },
+  {
+    "review_id": "REV-133e7a9e",
+    "customer_id": "customer_027",
+    "product_id": 1000075,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-10T08:24:08Z"
+  },
+  {
+    "review_id": "REV-5ab26a33",
+    "customer_id": "customer_100",
+    "product_id": 1000003,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-11T14:24:08Z"
+  },
+  {
+    "review_id": "REV-484fe89d",
+    "customer_id": "customer_179",
     "product_id": 1000012,
     "rating": 5,
-    "review_text": "고기왕만두는 역시 서강몰이네요. 속이 꽉 차고 육즙이 장난 아닙니다. 찜기에 쪄 먹는 게 제일 맛있어요. 냉동실 필수템.",
-    "image_url": null,
-    "created_at": "2025-11-11T09:00:00Z"
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-08T16:24:08Z"
   },
   {
-    "review_id": "REV-1009",
-    "customer_id": "angry_mom",
-    "product_id": 1000007,
-    "rating": 1,
-    "review_text": "최악입니다. 춘천식 닭갈비 밀키트 조리하는데 닭고기에서 머리카락 나왔어요. 입맛 다 버렸네요. 위생 관리 어떻게 하시는 거죠? (SM-CS-QUAL-104 매뉴얼 트리거)",
-    "image_url": "https://image.example.com/review_hair.jpg",
-    "created_at": "2025-11-13T20:00:00Z"
+    "review_id": "REV-fb4e8b45",
+    "customer_id": "customer_154",
+    "product_id": 1000027,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-24T15:24:08Z"
   },
   {
-    "review_id": "REV-1010",
-    "customer_id": "camper_02",
-    "product_id": 1000004,
+    "review_id": "REV-267abf0a",
+    "customer_id": "customer_064",
+    "product_id": 1000075,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-13T07:24:08Z"
+  },
+  {
+    "review_id": "REV-1ab7dde8",
+    "customer_id": "customer_057",
+    "product_id": 1000026,
     "rating": 2,
-    "review_text": "어묵탕 오뎅탕... 분명 '오늘출발'이라고 해서 캠핑장 가기 전에 받으려고 시킨 건데, 주문 이틀 뒤에 출발하는 게 말이 되나요? 결국 캠핑장 다녀와서 받았네요. 신선식품 배송 이렇게 하시면 안 되죠.",
-    "image_url": null,
-    "created_at": "2025-11-13T16:00:00Z"
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-19T04:24:08Z"
+  },
+  {
+    "review_id": "REV-bc74a9a3",
+    "customer_id": "customer_158",
+    "product_id": 1000039,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-25T01:24:08Z"
+  },
+  {
+    "review_id": "REV-a2ad123d",
+    "customer_id": "customer_075",
+    "product_id": 1000039,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-10T01:24:08Z"
+  },
+  {
+    "review_id": "REV-a1f9d7a3",
+    "customer_id": "customer_195",
+    "product_id": 1000079,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-09T20:24:08Z"
+  },
+  {
+    "review_id": "REV-037875e8",
+    "customer_id": "customer_082",
+    "product_id": 1000050,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-03T17:24:08Z"
+  },
+  {
+    "review_id": "REV-0931b2ac",
+    "customer_id": "customer_008",
+    "product_id": 1000031,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-03T11:24:08Z"
+  },
+  {
+    "review_id": "REV-e6a107bc",
+    "customer_id": "customer_164",
+    "product_id": 1000081,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-05T04:24:08Z"
+  },
+  {
+    "review_id": "REV-3c177209",
+    "customer_id": "customer_103",
+    "product_id": 1000068,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-05T06:24:08Z"
+  },
+  {
+    "review_id": "REV-fd8a0ca4",
+    "customer_id": "customer_027",
+    "product_id": 1000018,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-20T22:24:08Z"
+  },
+  {
+    "review_id": "REV-d7623618",
+    "customer_id": "customer_005",
+    "product_id": 1000019,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-16T12:24:08Z"
+  },
+  {
+    "review_id": "REV-34faf030",
+    "customer_id": "customer_036",
+    "product_id": 1000100,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-11T08:24:08Z"
+  },
+  {
+    "review_id": "REV-4de32cd6",
+    "customer_id": "customer_176",
+    "product_id": 1000021,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-01T17:24:08Z"
+  },
+  {
+    "review_id": "REV-affb70ee",
+    "customer_id": "customer_050",
+    "product_id": 1000069,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-03T08:24:08Z"
+  },
+  {
+    "review_id": "REV-e77bee85",
+    "customer_id": "customer_150",
+    "product_id": 1000030,
+    "rating": 3,
+    "review_text": "포장이 터져서 왔네요.",
+    "created_at": "2026-07-27T09:24:08Z"
+  },
+  {
+    "review_id": "REV-56e4c621",
+    "customer_id": "customer_135",
+    "product_id": 1000086,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-20T19:24:08Z"
+  },
+  {
+    "review_id": "REV-b79a3bfa",
+    "customer_id": "customer_097",
+    "product_id": 1000033,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-16T08:24:08Z"
+  },
+  {
+    "review_id": "REV-31449c7a",
+    "customer_id": "customer_117",
+    "product_id": 1000034,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-06T02:24:08Z"
+  },
+  {
+    "review_id": "REV-65edcfa0",
+    "customer_id": "customer_014",
+    "product_id": 1000088,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-30T05:24:08Z"
+  },
+  {
+    "review_id": "REV-f0aff76c",
+    "customer_id": "customer_122",
+    "product_id": 1000028,
+    "rating": 1,
+    "review_text": "포장이 터져서 왔네요.",
+    "created_at": "2026-07-23T17:24:08Z"
+  },
+  {
+    "review_id": "REV-c68ac680",
+    "customer_id": "customer_046",
+    "product_id": 1000045,
+    "rating": 3,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-06T17:24:08Z"
+  },
+  {
+    "review_id": "REV-53b6c83b",
+    "customer_id": "customer_042",
+    "product_id": 1000006,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-24T21:24:08Z"
+  },
+  {
+    "review_id": "REV-203e79a5",
+    "customer_id": "customer_133",
+    "product_id": 1000064,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-07T00:24:08Z"
+  },
+  {
+    "review_id": "REV-e811f3c9",
+    "customer_id": "customer_042",
+    "product_id": 1000065,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-16T07:24:08Z"
+  },
+  {
+    "review_id": "REV-5f8b4e20",
+    "customer_id": "customer_132",
+    "product_id": 1000037,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-18T11:24:08Z"
+  },
+  {
+    "review_id": "REV-7f959cd7",
+    "customer_id": "customer_086",
+    "product_id": 1000100,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-22T23:24:08Z"
+  },
+  {
+    "review_id": "REV-57c6c757",
+    "customer_id": "customer_157",
+    "product_id": 1000020,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-09T03:24:08Z"
+  },
+  {
+    "review_id": "REV-d78cd8f3",
+    "customer_id": "customer_197",
+    "product_id": 1000060,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-17T19:24:08Z"
+  },
+  {
+    "review_id": "REV-39f96935",
+    "customer_id": "customer_199",
+    "product_id": 1000068,
+    "rating": 2,
+    "review_text": "배송이 너무 느렸습니다.",
+    "created_at": "2026-07-20T09:24:08Z"
+  },
+  {
+    "review_id": "REV-20447bf3",
+    "customer_id": "customer_049",
+    "product_id": 1000088,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-14T06:24:08Z"
+  },
+  {
+    "review_id": "REV-da6a5637",
+    "customer_id": "customer_033",
+    "product_id": 1000098,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-16T23:24:08Z"
+  },
+  {
+    "review_id": "REV-28207116",
+    "customer_id": "customer_062",
+    "product_id": 1000048,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-07T15:24:08Z"
+  },
+  {
+    "review_id": "REV-09a815f5",
+    "customer_id": "customer_098",
+    "product_id": 1000058,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-01T13:24:08Z"
+  },
+  {
+    "review_id": "REV-5af84f7f",
+    "customer_id": "customer_193",
+    "product_id": 1000064,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-12T13:24:08Z"
+  },
+  {
+    "review_id": "REV-303695b3",
+    "customer_id": "customer_078",
+    "product_id": 1000078,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-14T20:24:08Z"
+  },
+  {
+    "review_id": "REV-491f29fd",
+    "customer_id": "customer_170",
+    "product_id": 1000008,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-12T05:24:08Z"
+  },
+  {
+    "review_id": "REV-5286efb0",
+    "customer_id": "customer_052",
+    "product_id": 1000098,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-09T21:24:08Z"
+  },
+  {
+    "review_id": "REV-43145acd",
+    "customer_id": "customer_036",
+    "product_id": 1000001,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-03T12:24:08Z"
+  },
+  {
+    "review_id": "REV-6bc3fb14",
+    "customer_id": "customer_122",
+    "product_id": 1000066,
+    "rating": 1,
+    "review_text": "포장이 터져서 왔네요.",
+    "created_at": "2026-07-04T00:24:08Z"
+  },
+  {
+    "review_id": "REV-6fd28dfc",
+    "customer_id": "customer_110",
+    "product_id": 1000014,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-17T20:24:08Z"
+  },
+  {
+    "review_id": "REV-c0454ddb",
+    "customer_id": "customer_177",
+    "product_id": 1000045,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-04T07:24:08Z"
+  },
+  {
+    "review_id": "REV-a1b67bc8",
+    "customer_id": "customer_115",
+    "product_id": 1000057,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-12T11:24:08Z"
+  },
+  {
+    "review_id": "REV-069ba148",
+    "customer_id": "customer_019",
+    "product_id": 1000087,
+    "rating": 3,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-08-01T02:24:08Z"
+  },
+  {
+    "review_id": "REV-954fb7c5",
+    "customer_id": "customer_198",
+    "product_id": 1000099,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-06T14:24:08Z"
+  },
+  {
+    "review_id": "REV-e9ec9bb8",
+    "customer_id": "customer_018",
+    "product_id": 1000002,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-22T21:24:08Z"
+  },
+  {
+    "review_id": "REV-88093a00",
+    "customer_id": "customer_104",
+    "product_id": 1000042,
+    "rating": 3,
+    "review_text": "맛이 예전같지 않아요.",
+    "created_at": "2026-07-02T05:24:08Z"
+  },
+  {
+    "review_id": "REV-f94f22a6",
+    "customer_id": "customer_166",
+    "product_id": 1000027,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-12T20:24:08Z"
+  },
+  {
+    "review_id": "REV-6dcddb6d",
+    "customer_id": "customer_065",
+    "product_id": 1000037,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-22T05:24:08Z"
+  },
+  {
+    "review_id": "REV-c70b5098",
+    "customer_id": "customer_163",
+    "product_id": 1000018,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-24T15:24:08Z"
+  },
+  {
+    "review_id": "REV-d86c206b",
+    "customer_id": "customer_090",
+    "product_id": 1000058,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-18T05:24:08Z"
+  },
+  {
+    "review_id": "REV-57f2f4a2",
+    "customer_id": "customer_108",
+    "product_id": 1000084,
+    "rating": 3,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-29T17:24:08Z"
+  },
+  {
+    "review_id": "REV-3b2b734e",
+    "customer_id": "customer_052",
+    "product_id": 1000050,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-08T16:24:08Z"
+  },
+  {
+    "review_id": "REV-5b4ff82b",
+    "customer_id": "customer_133",
+    "product_id": 1000023,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-25T20:24:08Z"
+  },
+  {
+    "review_id": "REV-1614a740",
+    "customer_id": "customer_181",
+    "product_id": 1000079,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-09T06:24:08Z"
+  },
+  {
+    "review_id": "REV-5ef1392a",
+    "customer_id": "customer_116",
+    "product_id": 1000065,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-27T06:24:08Z"
+  },
+  {
+    "review_id": "REV-18d563b2",
+    "customer_id": "customer_148",
+    "product_id": 1000084,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-25T05:24:08Z"
+  },
+  {
+    "review_id": "REV-6559770e",
+    "customer_id": "customer_044",
+    "product_id": 1000086,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-08T19:24:08Z"
+  },
+  {
+    "review_id": "REV-258857c3",
+    "customer_id": "customer_055",
+    "product_id": 1000065,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-26T14:24:08Z"
+  },
+  {
+    "review_id": "REV-06aee34f",
+    "customer_id": "customer_038",
+    "product_id": 1000091,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-18T08:24:08Z"
+  },
+  {
+    "review_id": "REV-1405c64c",
+    "customer_id": "customer_056",
+    "product_id": 1000076,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-20T06:24:08Z"
+  },
+  {
+    "review_id": "REV-87b58149",
+    "customer_id": "customer_159",
+    "product_id": 1000052,
+    "rating": 1,
+    "review_text": "별로예요.",
+    "created_at": "2026-08-03T21:24:08Z"
+  },
+  {
+    "review_id": "REV-70763d63",
+    "customer_id": "customer_026",
+    "product_id": 1000001,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-24T04:24:08Z"
+  },
+  {
+    "review_id": "REV-760ae999",
+    "customer_id": "customer_109",
+    "product_id": 1000029,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-10T18:24:08Z"
+  },
+  {
+    "review_id": "REV-c96402b4",
+    "customer_id": "customer_196",
+    "product_id": 1000005,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-13T07:24:08Z"
+  },
+  {
+    "review_id": "REV-ce97f6f5",
+    "customer_id": "customer_045",
+    "product_id": 1000017,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-11T14:24:08Z"
+  },
+  {
+    "review_id": "REV-c949aae7",
+    "customer_id": "customer_052",
+    "product_id": 1000011,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-22T05:24:08Z"
+  },
+  {
+    "review_id": "REV-00ef00de",
+    "customer_id": "customer_090",
+    "product_id": 1000068,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-25T19:24:08Z"
+  },
+  {
+    "review_id": "REV-5d77f299",
+    "customer_id": "customer_152",
+    "product_id": 1000018,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-04T14:24:08Z"
+  },
+  {
+    "review_id": "REV-6f7a5616",
+    "customer_id": "customer_042",
+    "product_id": 1000008,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-08T20:24:08Z"
+  },
+  {
+    "review_id": "REV-43cebe47",
+    "customer_id": "customer_072",
+    "product_id": 1000056,
+    "rating": 1,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-10T22:24:08Z"
+  },
+  {
+    "review_id": "REV-35c1a5e6",
+    "customer_id": "customer_194",
+    "product_id": 1000060,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-18T02:24:08Z"
+  },
+  {
+    "review_id": "REV-55111d8d",
+    "customer_id": "customer_062",
+    "product_id": 1000059,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-05T13:24:08Z"
+  },
+  {
+    "review_id": "REV-1472fd86",
+    "customer_id": "customer_045",
+    "product_id": 1000064,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-09T07:24:08Z"
+  },
+  {
+    "review_id": "REV-09acefdb",
+    "customer_id": "customer_036",
+    "product_id": 1000017,
+    "rating": 1,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-25T22:24:08Z"
+  },
+  {
+    "review_id": "REV-3eacf64a",
+    "customer_id": "customer_015",
+    "product_id": 1000069,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-10T21:24:08Z"
+  },
+  {
+    "review_id": "REV-5b0591dd",
+    "customer_id": "customer_067",
+    "product_id": 1000065,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-02T06:24:08Z"
+  },
+  {
+    "review_id": "REV-2f5fddd0",
+    "customer_id": "customer_147",
+    "product_id": 1000027,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-28T09:24:08Z"
+  },
+  {
+    "review_id": "REV-c7d6a46b",
+    "customer_id": "customer_172",
+    "product_id": 1000038,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-14T04:24:08Z"
+  },
+  {
+    "review_id": "REV-09587aef",
+    "customer_id": "customer_068",
+    "product_id": 1000002,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-08T07:24:08Z"
+  },
+  {
+    "review_id": "REV-e5912145",
+    "customer_id": "customer_172",
+    "product_id": 1000072,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-17T23:24:08Z"
+  },
+  {
+    "review_id": "REV-8a138df9",
+    "customer_id": "customer_054",
+    "product_id": 1000022,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-30T02:24:08Z"
+  },
+  {
+    "review_id": "REV-6b148e18",
+    "customer_id": "customer_196",
+    "product_id": 1000033,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-08T15:24:08Z"
+  },
+  {
+    "review_id": "REV-41e971cb",
+    "customer_id": "customer_007",
+    "product_id": 1000033,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-20T03:24:08Z"
+  },
+  {
+    "review_id": "REV-1dbb9d5c",
+    "customer_id": "customer_183",
+    "product_id": 1000028,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-27T19:24:08Z"
+  },
+  {
+    "review_id": "REV-44b123d9",
+    "customer_id": "customer_048",
+    "product_id": 1000071,
+    "rating": 3,
+    "review_text": "포장이 터져서 왔네요.",
+    "created_at": "2026-06-20T20:24:08Z"
+  },
+  {
+    "review_id": "REV-52f05fe7",
+    "customer_id": "customer_019",
+    "product_id": 1000073,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-01T11:24:08Z"
+  },
+  {
+    "review_id": "REV-f0db5062",
+    "customer_id": "customer_050",
+    "product_id": 1000040,
+    "rating": 3,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-05T08:24:08Z"
+  },
+  {
+    "review_id": "REV-872ad72a",
+    "customer_id": "customer_034",
+    "product_id": 1000008,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-28T20:24:08Z"
+  },
+  {
+    "review_id": "REV-f142b1c9",
+    "customer_id": "customer_133",
+    "product_id": 1000069,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-25T11:24:08Z"
+  },
+  {
+    "review_id": "REV-9733a197",
+    "customer_id": "customer_063",
+    "product_id": 1000065,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-22T21:24:08Z"
+  },
+  {
+    "review_id": "REV-b2cfe03d",
+    "customer_id": "customer_016",
+    "product_id": 1000068,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-26T14:24:08Z"
+  },
+  {
+    "review_id": "REV-8de84298",
+    "customer_id": "customer_136",
+    "product_id": 1000045,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-04T12:24:08Z"
+  },
+  {
+    "review_id": "REV-3ac3aa9d",
+    "customer_id": "customer_165",
+    "product_id": 1000045,
+    "rating": 2,
+    "review_text": "맛이 예전같지 않아요.",
+    "created_at": "2026-06-12T02:24:08Z"
+  },
+  {
+    "review_id": "REV-cea7116f",
+    "customer_id": "customer_197",
+    "product_id": 1000041,
+    "rating": 2,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-07-02T02:24:08Z"
+  },
+  {
+    "review_id": "REV-f635a0a8",
+    "customer_id": "customer_089",
+    "product_id": 1000084,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-05T22:24:08Z"
+  },
+  {
+    "review_id": "REV-ce2b596e",
+    "customer_id": "customer_160",
+    "product_id": 1000092,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-03T00:24:08Z"
+  },
+  {
+    "review_id": "REV-3649f429",
+    "customer_id": "customer_194",
+    "product_id": 1000076,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-31T06:24:08Z"
+  },
+  {
+    "review_id": "REV-84cf4640",
+    "customer_id": "customer_159",
+    "product_id": 1000014,
+    "rating": 1,
+    "review_text": "맛이 예전같지 않아요.",
+    "created_at": "2026-06-13T05:24:08Z"
+  },
+  {
+    "review_id": "REV-fcd3d1cd",
+    "customer_id": "customer_117",
+    "product_id": 1000067,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-02T09:24:08Z"
+  },
+  {
+    "review_id": "REV-258d8cdb",
+    "customer_id": "customer_061",
+    "product_id": 1000042,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-10T03:24:08Z"
+  },
+  {
+    "review_id": "REV-816aeef3",
+    "customer_id": "customer_079",
+    "product_id": 1000046,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-27T02:24:08Z"
+  },
+  {
+    "review_id": "REV-8c2d3b0e",
+    "customer_id": "customer_074",
+    "product_id": 1000045,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-04T21:24:08Z"
+  },
+  {
+    "review_id": "REV-3efcf083",
+    "customer_id": "customer_135",
+    "product_id": 1000083,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-23T23:24:08Z"
+  },
+  {
+    "review_id": "REV-b369e57e",
+    "customer_id": "customer_030",
+    "product_id": 1000087,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-19T14:24:08Z"
+  },
+  {
+    "review_id": "REV-7879b08c",
+    "customer_id": "customer_025",
+    "product_id": 1000095,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-25T08:24:08Z"
+  },
+  {
+    "review_id": "REV-0abc3cb4",
+    "customer_id": "customer_149",
+    "product_id": 1000047,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-10T16:24:08Z"
+  },
+  {
+    "review_id": "REV-bb1958d4",
+    "customer_id": "customer_092",
+    "product_id": 1000001,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-07T20:24:08Z"
+  },
+  {
+    "review_id": "REV-cafdfb94",
+    "customer_id": "customer_128",
+    "product_id": 1000017,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-03T16:24:08Z"
+  },
+  {
+    "review_id": "REV-d1edae1f",
+    "customer_id": "customer_106",
+    "product_id": 1000088,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-18T16:24:08Z"
+  },
+  {
+    "review_id": "REV-e19c79b0",
+    "customer_id": "customer_050",
+    "product_id": 1000068,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-11T13:24:08Z"
+  },
+  {
+    "review_id": "REV-9acd149f",
+    "customer_id": "customer_065",
+    "product_id": 1000009,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-26T16:24:08Z"
+  },
+  {
+    "review_id": "REV-27773927",
+    "customer_id": "customer_190",
+    "product_id": 1000099,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-02T01:24:08Z"
+  },
+  {
+    "review_id": "REV-f367e8d3",
+    "customer_id": "customer_159",
+    "product_id": 1000089,
+    "rating": 1,
+    "review_text": "별로예요.",
+    "created_at": "2026-07-11T06:24:08Z"
+  },
+  {
+    "review_id": "REV-b97d8114",
+    "customer_id": "customer_164",
+    "product_id": 1000077,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-27T12:24:08Z"
+  },
+  {
+    "review_id": "REV-f644b468",
+    "customer_id": "customer_030",
+    "product_id": 1000002,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-07T16:24:08Z"
+  },
+  {
+    "review_id": "REV-59f4ad8c",
+    "customer_id": "customer_043",
+    "product_id": 1000062,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-11T14:24:08Z"
+  },
+  {
+    "review_id": "REV-189d3069",
+    "customer_id": "customer_120",
+    "product_id": 1000025,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-11T21:24:08Z"
+  },
+  {
+    "review_id": "REV-dea2a997",
+    "customer_id": "customer_053",
+    "product_id": 1000088,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-30T14:24:08Z"
+  },
+  {
+    "review_id": "REV-8aff5ee2",
+    "customer_id": "customer_151",
+    "product_id": 1000022,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-12T15:24:08Z"
+  },
+  {
+    "review_id": "REV-7009336c",
+    "customer_id": "customer_081",
+    "product_id": 1000029,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-27T07:24:08Z"
+  },
+  {
+    "review_id": "REV-bc529caf",
+    "customer_id": "customer_094",
+    "product_id": 1000026,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-08-02T21:24:08Z"
+  },
+  {
+    "review_id": "REV-dab6f520",
+    "customer_id": "customer_152",
+    "product_id": 1000018,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-28T02:24:08Z"
+  },
+  {
+    "review_id": "REV-f014743f",
+    "customer_id": "customer_077",
+    "product_id": 1000041,
+    "rating": 3,
+    "review_text": "배송이 너무 느렸습니다.",
+    "created_at": "2026-07-28T03:24:08Z"
+  },
+  {
+    "review_id": "REV-42470020",
+    "customer_id": "customer_164",
+    "product_id": 1000085,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-29T11:24:08Z"
+  },
+  {
+    "review_id": "REV-914d8ad8",
+    "customer_id": "customer_088",
+    "product_id": 1000055,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-13T07:24:08Z"
+  },
+  {
+    "review_id": "REV-1a54943f",
+    "customer_id": "customer_034",
+    "product_id": 1000026,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-18T06:24:08Z"
+  },
+  {
+    "review_id": "REV-e84fe71a",
+    "customer_id": "customer_051",
+    "product_id": 1000100,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-05T03:24:08Z"
+  },
+  {
+    "review_id": "REV-a2009783",
+    "customer_id": "customer_064",
+    "product_id": 1000086,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-21T20:24:08Z"
+  },
+  {
+    "review_id": "REV-5bd9b827",
+    "customer_id": "customer_145",
+    "product_id": 1000075,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-23T17:24:08Z"
+  },
+  {
+    "review_id": "REV-1715aa07",
+    "customer_id": "customer_130",
+    "product_id": 1000040,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-16T16:24:08Z"
+  },
+  {
+    "review_id": "REV-8a212649",
+    "customer_id": "customer_189",
+    "product_id": 1000088,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-06-07T20:24:08Z"
+  },
+  {
+    "review_id": "REV-e6774456",
+    "customer_id": "customer_106",
+    "product_id": 1000002,
+    "rating": 1,
+    "review_text": "생각보다 별로네요. 다음엔 안 살듯요.",
+    "created_at": "2026-06-28T17:24:08Z"
+  },
+  {
+    "review_id": "REV-2d87ae66",
+    "customer_id": "customer_088",
+    "product_id": 1000098,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-24T13:24:08Z"
+  },
+  {
+    "review_id": "REV-7f66ccef",
+    "customer_id": "customer_025",
+    "product_id": 1000021,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-15T20:24:08Z"
+  },
+  {
+    "review_id": "REV-238ce412",
+    "customer_id": "customer_124",
+    "product_id": 1000043,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-29T05:24:08Z"
+  },
+  {
+    "review_id": "REV-56fee82c",
+    "customer_id": "customer_021",
+    "product_id": 1000031,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-02T01:24:08Z"
+  },
+  {
+    "review_id": "REV-b2e4de6e",
+    "customer_id": "customer_138",
+    "product_id": 1000054,
+    "rating": 5,
+    "review_text": "정말 맛있어요! 또 시킬게요.",
+    "created_at": "2026-07-27T07:24:08Z"
   }
 ]

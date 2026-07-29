@@ -11,3 +11,4 @@ chroma_data/
 # OS 및 기타
 .DS_Store
 *.pyc
+.cache/

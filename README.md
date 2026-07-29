@@ -1,175 +1,151 @@
-# 🚀 AI-Store Manager (AI-Powered CRM Manager for Small Business Owners)
+# 🚀 AI-Store-Manager (WIP)
 
-> ⚠️ **WORK IN PROGRESS**: This project is evolving from a simple CS/CRM tool into an **[All-in-One AI Store Manager OS]** tailored for solo e-commerce sellers. A massive structural refactoring and UI/UX redesign is currently underway.
-> 
-> **Key Improvements (Roadmap):**
-> - 🧠 **LangGraph-based Multi-Agent Architecture:** Transitioning from a single chatbot to a collaborative multi-agent system (CS Agent, Business Copilot, Review Agent, etc.).
-> - 🎨 **Premium UI/UX Redesign:** Implementing a modern glassmorphic dark theme and intuitive data visualization using Recharts.
-> - 🏗️ **Backend Architecture Upgrade:** Adopting FastAPI best practices, SQLAlchemy ORM, and the `uv` package manager for a production-ready backend.
-> - ⚙️ **Zero-Cost Infrastructure:** Optimizing operations using FastAPI BackgroundTasks and local caching to eliminate the need for paid services (Redis, MQ, etc.).
-> 
-> *Note: Some screenshots and descriptions below reflect the older version and will be fully updated upon project completion.*
+> **Note: This project is currently under active development (Work In Progress).** Features, architecture, and documentation are subject to change.
 
-> **Note:** This project is an AI-powered manager solution designed to help sole proprietors and small business owners automate and enhance customer service (CS), review management, customer relationship management (CRM), and business data analysis, allowing them to focus on growing their business.
-
-## 👥 Two User Roles
-
-This system provides role-specific features for two types of internal users—**Admin/CEO** and **Agent**—to support efficient task distribution.
-
-1. **Admin/CEO**
-
-   * **Role:** Business owner or general manager
-   * **Key Features:** Through a dedicated admin dashboard, users can monitor all key business metrics, including KPIs, sales trends, and customer segmentation, enabling **data-driven strategic decision-making**. The CRM features also support targeted marketing and proactive business risk management.
-
-2. **Agent**
-
-   * **Role:** Customer support representative
-   * **Key Features:** Handles **complex customer service inquiries** that the AI cannot resolve automatically or when customers request to speak with a human agent. Agents also review, edit, and approve AI-generated draft responses for negative reviews, focusing on **maintaining customer service quality**. In addition, they provide feedback on AI responses to continuously improve the system's accuracy.
+AI-Store-Manager is an **Agentic AI Operating System** tailored for solo e-commerce sellers and small business owners. Rather than just providing a dashboard, it seamlessly integrates AI (powered by LangGraph and OpenAI) into standard SaaS menus to act as a proactive business co-pilot and automated customer service agent.
 
 ---
 
-## ✨ Key Features for Admins (Admin Dashboard)
+## ✨ Core Philosophy
+- **Subtle but Powerful AI**: AI is embedded naturally into the workflow (e.g., "Operational Insights", "Smart Briefings", "Review Auto-Replies") without overwhelming the user with overly flashy "AI" labels.
+- **Agentic Workflows**: Utilizes LangGraph to orchestrate agents that can proactively fetch data, search manuals (RAG), and execute tasks.
+- **Organic Data Simulation**: The platform runs on a deeply interconnected mock dataset where orders, customer segments (e.g., VIP vs. Churn Risk), shipping delays, and QnAs/Reviews organically affect one another.
 
-* **AI Admin Dashboard**
+---
 
-  * **KPI Monitoring:** Track key business metrics in real time, including unanswered Q&A, ongoing customer claims, low-stock products, and the latest settlement amounts.
-  * **Risk Alerts:** Receive early warnings about potential business risks, such as inventory shortages or sudden increases in negative reviews for specific products.
-  * **Data Visualization:** View important business data, such as daily sales trends, through intuitive charts for easier analysis.
-* **CRM Features**
+## 🛠️ Features & Menus
 
-  * **Customer Segmentation:** Automatically categorize customers into groups such as "Loyal Customers" and "At-Risk Customers" to support targeted marketing campaigns.
-  * **Action Recommendations:** Suggest and execute personalized actions, such as sending coupons to at-risk customers.
+### 1. Dashboard (`/`)
+The central hub for store operations.
+- **KPIs**: Live tracking of unanswered QnAs, pending claims, and low-stock items.
+- **Operational Insights**: AI-generated bullet points summarizing urgent store issues based on real-time data analysis.
+- **Sales Trend**: Visual charts displaying recent settlement and sales data.
 
-## 💬 Key Features for Agents (Agent Tools)
+### 2. CS Agent Hub (`/cs`)
+A fully functional Customer Support workspace.
+- **RAG-Powered AI Responses**: The AI searches through detailed `cs_manuals.json` (embedded in ChromaDB) to answer complex inquiries perfectly aligned with store policies.
+- **Customer 360° View**: Displays the customer's total spend, past claims, recent orders, and automatically recommends the appropriate CS manual.
 
-* **Efficient Three-Column Customer Support Workspace:** Designed with a three-column layout similar to Slack or Intercom, allowing agents to communicate with customers while accessing all necessary information at a glance.
+### 3. Orders Management (`/orders`)
+- Comprehensive overview of all customer orders.
+- Easily track order status, payment details, and shipping progress.
+- Manage claims, cancellations, and returns directly from the grid.
 
-  * **[Left Column] Inquiry Queue:** View and select new, ongoing, and completed customer inquiries in real time.
-  * **[Center Column] Live Chat Window:** Communicate with customers while receiving AI-generated response suggestions. Agents can use AI responses, provide direct replies, submit feedback, and attach files.
-  * **[Right Column] Customer Profile:** Instantly access the selected customer's basic information, recent order history, previous claims, past reviews, and AI-recommended customer service manuals.
-* **AI-Powered Review Management:** Automatically detect negative customer reviews and allow agents to review, approve, and publish AI-generated response drafts.
-* **Intelligent Customer Service Chatbot with Self-Improvement:** Generates accurate responses using a RAG-based architecture while continuously improving answer quality through agent feedback.
+### 4. Products Management (`/products`)
+- Centralized database for managing your product catalog.
+- Monitor pricing, cost, and active/inactive status across all items.
 
-## 🛠️ Tech Stack
+### 5. Inventory Management (`/inventory`)
+- Real-time stock monitoring to prevent stockouts.
+- Visual indicators for low-stock items requiring immediate attention.
 
-* **Backend:** FastAPI, Python
-* **Frontend:** React, Vite, Recharts, Axios
-* **Database:** PostgreSQL (Integrated with Google Cloud SQL)
-* **Vector Database:** ChromaDB
-* **LLM:** OpenAI GPT-4o, GPT-3.5-turbo
-* **Embedding Model:** OpenAI `text-embedding-3-small`
+### 6. Review & QnA Analysis (`/reviews`)
+- **Sentiment Analysis**: Automatically categorizes reviews into positive, neutral, and negative.
+- **AI Reply Drafting**: Generates polite, context-aware draft replies to negative reviews to help sellers manage their brand reputation effortlessly.
+
+### 7. Customer CRM (`/crm`)
+- **Customer Segmentation**: Automatically groups customers into tiers (VIP, Regular, New, Churn Risk) based on their RFM (Recency, Frequency, Monetary) data.
+- Helps identify which customers need urgent care (e.g., a Churn Risk customer who experienced a delayed delivery).
+
+### 8. Sales Analytics (`/analytics`)
+- **Smart Briefing**: An AI-generated daily morning briefing summarizing yesterday's performance and today's action items.
+- **Profit Margin Analysis**: Detailed charts and tables breaking down product costs, margins, and sales volume.
+
+### 9. AI Manager (`/manager`)
+Your top-level business orchestrator.
+- An interactive chat interface where you can ask high-level questions like *"What's our most urgent inventory issue?"* or *"Analyze recent negative reviews."*
+- The AI has access to internal tools (Tool Calling) to query the database for sales analytics, VIP customer lists, and inventory warnings, providing actionable business advice.
+
+---
+
+## 💻 Tech Stack
+
+### Frontend
+- **Framework**: React.js (Vite)
+- **Styling**: Tailwind CSS & Material-UI (MUI)
+- **Icons & Charts**: Lucide React, Recharts
+- **Routing**: React Router DOM
+
+### Backend
+- **Framework**: FastAPI (Python)
+- **Database**: PostgreSQL (via SQLAlchemy & Psycopg2)
+- **Vector DB (RAG)**: ChromaDB
+
+### AI & Agentic Components
+- **Orchestration**: LangGraph, LangChain
+- **LLM & Embeddings**: OpenAI (`gpt-4o-mini`, `text-embedding-3-small`)
+- **Observability**: LangSmith (Tracing & Evaluation)
+
+---
+
+## 📂 Repository Structure
+
+```text
+AI-Store-Manager/
+├── backend/
+│   ├── agents/         # High-level orchestrators and routing
+│   ├── api/            # FastAPI routers (dashboard, crm, reviews, etc.)
+│   ├── config/         # Environment settings (Pydantic Settings)
+│   ├── database/       # SQLAlchemy models, legacy connectors, session management
+│   ├── prompts/        # Centralized LLM prompt templates
+│   ├── scripts/        # Mock data generation and ChromaDB seeding scripts
+│   ├── services/       # RAG services, LangChain Retriever integration
+│   ├── tools/          # Agent tools (get_customer_info, check_store_kpis, etc.)
+│   └── workflows/      # LangGraph state graphs (cs_agent.py, manager_agent.py)
+├── frontend/
+│   ├── src/
+│   │   ├── api/        # Axios client for backend communication
+│   │   ├── components/ # Reusable UI components (Chat, Panels, DataGrids)
+│   │   ├── layouts/    # Main application shell and Sidebar
+│   │   ├── pages/      # Route-level components (Dashboard, CRM, CSAgentHub, etc.)
+│   │   └── App.jsx     # Frontend entry point
+├── data/               # Raw JSON files (seller_info.json, cs_manuals.json)
+├── chroma_data/        # Persistent ChromaDB vector storage (ignored in git)
+├── docker-compose.yml  # PostgreSQL DB container configuration
+├── .env                # Environment variables (OpenAI, LangSmith, DB URL)
+└── README.md           # You are here
+```
+
+---
 
 ## 🚀 Getting Started
 
-### 📋 Prerequisites
+### 1. Database Setup
+```bash
+docker-compose up -d
+```
 
-* Python 3.9+
-* Node.js 18+
-* Google Cloud Platform (GCP) account and a Cloud SQL for PostgreSQL instance
-* OpenAI API Key
+### 2. Backend Setup
+```bash
+# Navigate to project root, install dependencies via uv
+uv pip install -r requirements.txt
 
-### ⚙️ Installation & Setup
+# Run the data seeding scripts (Populate Postgres & ChromaDB)
+uv run python backend/scripts/generate_mock_data.py
+uv run python backend/scripts/seed.py
+uv run python backend/scripts/populate_rag.py
 
-1. **Clone the repository:**
+# Start the FastAPI server
+uv run uvicorn backend.main:app --reload --port 8000
+```
 
-   ```bash
-   git clone https://github.com/suhwantcha/CS-Agent.git
-   cd your-repo
-   ```
+### 3. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-2. **Backend Setup:**
+### 4. Environment Variables (`.env`)
+Create a `.env` file in the root directory:
+```env
+OPENAI_API_KEY="your-openai-api-key"
+DATABASE_URL="postgresql://postgres:postgres@127.0.0.1:5433/ai_store_manager"
+CHROMA_DB_PATH="chroma_data"
 
-   ```bash
-   # Create and activate a virtual environment
-   python -m venv venv
-   # Windows: .\venv\Scripts\activate | macOS/Linux: source venv/bin/activate
-
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
-
-3. **Frontend Setup:**
-
-   ```bash
-   cd frontend
-   npm install
-   cd ..
-   ```
-
-4. **Environment Variables:**
-   Create a `.env` file in the project root and enter your GCP and OpenAI credentials.
-
-   ```env
-   DB_HOST=127.0.0.1
-   DB_PORT=5433 # Local Cloud SQL Auth Proxy port
-   DB_NAME=postgres
-   DB_USER=postgres
-   DB_PASSWORD=YOUR_DB_PASSWORD
-   OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-   ```
-
-5. **Run the Application (Requires 3–4 Terminal Windows):**
-
-   * **Terminal 1: Start the Cloud SQL Auth Proxy**
-     Connect your local machine to GCP using the Google Cloud SDK.
-
-     ```bash
-     # cloud_sql_proxy -instances=PROJECT_ID:REGION:INSTANCE_NAME=tcp:5433
-     ```
-
-   * **Terminal 2: Seed the Database (Run Once Only)**
-     Insert the initial dataset into the database.
-
-     ```bash
-     python seed_cloud_sql.py
-     ```
-
-   * **Terminal 3: Start the Backend Server**
-
-     ```bash
-     uvicorn api:app --host 127.0.0.1 --port 8000 --reload
-     ```
-
-   * **Terminal 4: Start the Frontend Server**
-
-     ```bash
-     cd frontend
-     npm run dev
-     ```
-
-6. **Access the Application:**
-   Open your browser and visit `http://localhost:5173` to access the Admin Dashboard.
-
-### 📸 Application Screenshots
-
-<img width="350" height="180" alt="1" src="https://github.com/user-attachments/assets/b5337714-6af9-41ff-8874-929c59e882a4" />
-<img width="350" height="180" alt="2" src="https://github.com/user-attachments/assets/9cab787e-d7c2-42e0-bd97-f97216f1ecbc" /><br>
-<img width="300" height="300" alt="3" src="https://github.com/user-attachments/assets/aa8c0528-6f82-4e0d-8e0c-0eaefdf778ce" />
-<img width="300" height="300" alt="4" src="https://github.com/user-attachments/assets/e469479d-0b94-4cc4-b1a1-92ca9e89f464" /><br>
-
-## 📁 Project Structure
-
-```text
-.
-├── frontend/                 # React frontend (Admin Dashboard, Chatbot UI)
-│   ├── src/
-│   │   ├── AdminDashboard.jsx
-│   │   ├── App.jsx
-│   │   ├── Chat.jsx
-│   │   ├── CSAgentHub.jsx
-│   │   ├── CustomerInfoPanel.jsx   # Customer information panel
-│   │   └── WorklistPanel.jsx       # Inquiry queue panel
-├── data/                     # Initial dataset (JSON format)
-├── chroma_data/              # ChromaDB vector database storage
-│
-├── api.py                    # FastAPI main application (API endpoints)
-├── llm_agent.py              # LLM interactions (response generation, self-improvement)
-├── review_analyzer.py        # Negative review analysis and response draft generation
-├── db_connector.py           # Database connection and CRUD logic
-├── rag_connector.py          # RAG (ChromaDB) connection logic
-├── seed_cloud_sql.py         # Database table creation and data seeding
-│
-├── AI_CRM_Manager_Project_Report.pdf   # Detailed project documentation
-├── requirements.txt          # Python dependency list
-└── README.md                 # Project documentation
+# LangSmith Tracing
+LANGSMITH_TRACING="true"
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="your-langsmith-api-key"
+LANGSMITH_PROJECT="ai-store-manager"
 ```

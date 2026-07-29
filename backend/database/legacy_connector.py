@@ -81,7 +81,15 @@ def get_orders_from_db() -> List[Dict[str, Any]]:
     if not conn: return []
     try:
         with conn.cursor() as cur:
-            cur.execute("SELECT product_order_id, order_id, origin_product_no, product_name, quantity, total_amount, customer_id, order_status, payment_date, delivery_complete_date, claim_type, claim_reason FROM orders")
+            cur.execute("""
+                SELECT 
+                    o.product_order_id, o.order_id, o.origin_product_no, o.product_name, 
+                    o.quantity, o.total_amount, o.customer_id, o.order_status, 
+                    o.payment_date, o.delivery_complete_date, o.claim_type, o.claim_reason,
+                    c.segment as customer_segment, c.name as customer_name
+                FROM orders o
+                LEFT JOIN customers c ON o.customer_id = c.customer_id
+            """)
             columns = [desc[0] for desc in cur.description]
             return [dict(zip(columns, row)) for row in cur.fetchall()]
     except Exception as e:

@@ -8,8 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.database.session import engine
 from backend.models.orm import Base
 # Import all routers
-from backend.api.routers import dashboard, cs, reviews, crm
-
+from backend.api.routers import dashboard, cs, reviews, crm, orders, products, inventory, analytics, manager
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -47,8 +46,13 @@ app.include_router(dashboard.router)
 app.include_router(cs.router)
 app.include_router(reviews.router)
 app.include_router(crm.router)
+app.include_router(orders.router)
+app.include_router(products.router)
+app.include_router(inventory.router)
+app.include_router(analytics.router)
+app.include_router(manager.router)
 
 
 @app.get("/")
 async def root():
-    return {"message": "AI Store Manager API (Phase 1)"}
+    return {"message": "AI Store Manager API (Phase 4)"}

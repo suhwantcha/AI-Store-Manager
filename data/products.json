@@ -1,370 +1,3052 @@
 [
   {
     "originProductNo": 1000001,
-    "channelProductNo": "C001-WANGGALBI650",
+    "channelProductNo": "C001-P1000001",
     "productName": "순살 왕갈비탕 밀키트 650g",
-    "category": {"categoryId": "10001", "categoryName": "한식/탕류"},
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "650g"},
-      {"attributeName": "유통기한", "attributeValue": "제조일로부터 7일"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/wanggalbi650.jpg"}],
-    "price": {"costPrice": 4000, "salePrice": 6200, "originalPrice": 8900, "discountRate": 30},
-    "stockQuantity": 150,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["갈비탕", "밀키트", "보양식"],
+    "price": {
+      "costPrice": 12753,
+      "salePrice": 19681,
+      "originalPrice": 25585,
+      "discountRate": 20
+    },
+    "stockQuantity": 4,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000002,
-    "channelProductNo": "C002-SUNDAEGUK300",
-    "productName": "순대국 300g 캠핑용 국밥",
-    "category": {"categoryId": "10001", "categoryName": "한식/국밥"},
+    "channelProductNo": "C001-P1000002",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "300g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/sundaeguk300.jpg"}],
-    "price": {"costPrice": 3000, "salePrice": 5000, "originalPrice": 6500, "discountRate": 23},
-    "stockQuantity": 200,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["순대국", "국밥", "캠핑"],
+    "price": {
+      "costPrice": 13936,
+      "salePrice": 21743,
+      "originalPrice": 28265,
+      "discountRate": 20
+    },
+    "stockQuantity": 62,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000003,
-    "channelProductNo": "C003-CHIZDONKATSU400",
-    "productName": "치즈돈까스 2팩 (400g)",
-    "category": {"categoryId": "10002", "categoryName": "밀키트/돈까스"},
+    "channelProductNo": "C001-P1000003",
+    "productName": "부산 어묵 꼬치 세트 10꼬치",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "400g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/cheesedonkatsu400.jpg"}],
-    "price": {"costPrice": 3500, "salePrice": 5900, "originalPrice": 8900, "discountRate": 33},
-    "stockQuantity": 180,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["돈까스", "치즈", "간편식"],
+    "price": {
+      "costPrice": 19295,
+      "salePrice": 30529,
+      "originalPrice": 39687,
+      "discountRate": 20
+    },
+    "stockQuantity": 10,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000004,
-    "channelProductNo": "C004-ODEONGTANG250",
-    "productName": "어묵탕 오뎅탕 5팩 세트 250g",
-    "category": {"categoryId": "10002", "categoryName": "밀키트/탕류"},
+    "channelProductNo": "C001-P1000004",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "구성", "attributeValue": "5팩"},
-      {"attributeName": "중량", "attributeValue": "250g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/odeongtang5set250.jpg"}],
-    "price": {"costPrice": 5500, "salePrice": 9950, "originalPrice": 16900, "discountRate": 41},
-    "stockQuantity": 90,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["어묵탕", "오뎅탕", "캠핑"],
+    "price": {
+      "costPrice": 20491,
+      "salePrice": 30104,
+      "originalPrice": 39135,
+      "discountRate": 20
+    },
+    "stockQuantity": 8,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000005,
-    "channelProductNo": "C005-JJUKKUMI300",
-    "productName": "양념 쭈꾸미볶음 300g",
-    "category": {"categoryId": "10002", "categoryName": "밀키트/볶음류"},
+    "channelProductNo": "C001-P1000005",
+    "productName": "속초식 닭강정 순살 1박스",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "300g"},
-      {"attributeName": "맛", "attributeValue": "매운맛"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/jjukkumi300.jpg"}],
-    "price": {"costPrice": 4500, "salePrice": 7900, "originalPrice": 12500, "discountRate": 36},
-    "stockQuantity": 130,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["쭈꾸미", "볶음", "매운맛"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 25430,
+      "salePrice": 41717,
+      "originalPrice": 54232,
+      "discountRate": 20
+    },
+    "stockQuantity": 69,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000006,
-    "channelProductNo": "C006-BULGOGI500",
-    "productName": "불고기 밀키트 500g",
-    "category": {"categoryId": "10002", "categoryName": "한식/볶음류"},
+    "channelProductNo": "C001-P1000006",
+    "productName": "프리미엄 한우 채끝 스테이크 200g",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "500g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/bulgogi500.jpg"}],
-    "price": {"costPrice": 5000, "salePrice": 8700, "originalPrice": 11500, "discountRate": 24},
-    "stockQuantity": 210,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["불고기", "한식", "밀키트"],
+    "price": {
+      "costPrice": 16289,
+      "salePrice": 24451,
+      "originalPrice": 31786,
+      "discountRate": 20
+    },
+    "stockQuantity": 71,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000007,
-    "channelProductNo": "C007-DAKGALBI600",
-    "productName": "춘천식 닭갈비 밀키트 600g",
-    "category": {"categoryId": "10002", "categoryName": "한식/볶음류"},
+    "channelProductNo": "C001-P1000007",
+    "productName": "제주 고당도 감귤 3kg 박스",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "600g"},
-      {"attributeName": "맛", "attributeValue": "매운맛"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/dakgalbi600.jpg"}],
-    "price": {"costPrice": 5200, "salePrice": 8800, "originalPrice": 11900, "discountRate": 26},
-    "stockQuantity": 195,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["닭갈비", "춘천", "매운맛"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 13475,
+      "salePrice": 23767,
+      "originalPrice": 30897,
+      "discountRate": 20
+    },
+    "stockQuantity": 212,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000008,
-    "channelProductNo": "C008-JEYUKBOKKEUM400",
-    "productName": "제육볶음 밀키트 400g",
-    "category": {"categoryId": "10002", "categoryName": "한식/볶음류"},
+    "channelProductNo": "C001-P1000008",
+    "productName": "통통한 바지락살 500g 찌개용",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "400g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/jeyukbokkeum400.jpg"}],
-    "price": {"costPrice": 4000, "salePrice": 6800, "originalPrice": 9900, "discountRate": 31},
-    "stockQuantity": 250,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["제육볶음", "한식", "간편식"],
+    "price": {
+      "costPrice": 22649,
+      "salePrice": 37158,
+      "originalPrice": 48305,
+      "discountRate": 20
+    },
+    "stockQuantity": 83,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000009,
-    "channelProductNo": "C009-TANGSUYUK400",
-    "productName": "중화식 탕수육 400g",
-    "category": {"categoryId": "10004", "categoryName": "중식/튀김류"},
+    "channelProductNo": "C001-P1000009",
+    "productName": "매콤 제육볶음 밀키트 2인분",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "400g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/tangsuyuk400.jpg"}],
-    "price": {"costPrice": 4800, "salePrice": 7200, "originalPrice": 10800, "discountRate": 33},
-    "stockQuantity": 180,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["탕수육", "중식", "간편식"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 12932,
+      "salePrice": 18298,
+      "originalPrice": 23787,
+      "discountRate": 20
+    },
+    "stockQuantity": 182,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000010,
-    "channelProductNo": "C010-KIMCHIJJIGAE500",
-    "productName": "김치찌개 밀키트 500g",
-    "category": {"categoryId": "10001", "categoryName": "한식/찌개류"},
+    "channelProductNo": "C001-P1000010",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "500g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/kimchijjigae500.jpg"}],
-    "price": {"costPrice": 3800, "salePrice": 6400, "originalPrice": 9500, "discountRate": 32},
-    "stockQuantity": 140,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["김치찌개", "찌개", "한식"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 10476,
+      "salePrice": 12668,
+      "originalPrice": 16468,
+      "discountRate": 20
+    },
+    "stockQuantity": 53,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000011,
-    "channelProductNo": "C011-BUDAEJJIGAE700",
-    "productName": "부대찌개 밀키트 700g (2인분)",
-    "category": {"categoryId": "10001", "categoryName": "한식/찌개류"},
+    "channelProductNo": "C001-P1000011",
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "700g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/budaejjigae700.jpg"}],
-    "price": {"costPrice": 5500, "salePrice": 9900, "originalPrice": 13000, "discountRate": 23},
-    "stockQuantity": 110,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["부대찌개", "찌개", "밀키트", "캠핑"],
+    "price": {
+      "costPrice": 16770,
+      "salePrice": 24041,
+      "originalPrice": 31253,
+      "discountRate": 20
+    },
+    "stockQuantity": 281,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000012,
-    "channelProductNo": "C012-GOGIMANDU1KG",
-    "productName": "육즙가득 고기왕만두 1kg",
-    "category": {"categoryId": "10003", "categoryName": "간식/만두"},
+    "channelProductNo": "C001-P1000012",
+    "productName": "춘천식 철판 닭갈비 1kg",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "1kg"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/gogimandu1kg.jpg"}],
-    "price": {"costPrice": 6000, "salePrice": 9900, "originalPrice": 12000, "discountRate": 17},
-    "stockQuantity": 300,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["만두", "고기만두", "간식"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 25169,
+      "salePrice": 31274,
+      "originalPrice": 40656,
+      "discountRate": 20
+    },
+    "stockQuantity": 261,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000013,
-    "channelProductNo": "C013-KIMCHIMANDU1KG",
-    "productName": "매콤 칼칼 김치왕만두 1kg",
-    "category": {"categoryId": "10003", "categoryName": "간식/만두"},
+    "channelProductNo": "C001-P1000013",
+    "productName": "영광 굴비 10미 가정용",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "1kg"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/kimchimandu1kg.jpg"}],
-    "price": {"costPrice": 6500, "salePrice": 10500, "originalPrice": 12500, "discountRate": 16},
-    "stockQuantity": 280,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["만두", "김치만두", "매운맛"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 10456,
+      "salePrice": 14966,
+      "originalPrice": 19455,
+      "discountRate": 20
+    },
+    "stockQuantity": 46,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000014,
-    "channelProductNo": "C014-OJINGEOBOKKEUM300",
-    "productName": "불맛 오징어볶음 300g",
-    "category": {"categoryId": "10002", "categoryName": "한식/볶음류"},
+    "channelProductNo": "C001-P1000014",
+    "productName": "샤인머스켓 2kg 프리미엄 과일",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "300g"},
-      {"attributeName": "맛", "attributeValue": "매운맛"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/ojingeo300.jpg"}],
-    "price": {"costPrice": 5000, "salePrice": 8900, "originalPrice": 13000, "discountRate": 31},
-    "stockQuantity": 120,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["오징어볶음", "볶음", "매운맛"],
+    "price": {
+      "costPrice": 9343,
+      "salePrice": 11242,
+      "originalPrice": 14614,
+      "discountRate": 20
+    },
+    "stockQuantity": 234,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000015,
-    "channelProductNo": "C015-ANDONGJJIMDAK800",
-    "productName": "안동 찜닭 밀키트 800g (뼈)",
-    "category": {"categoryId": "10002", "categoryName": "한식/찜류"},
+    "channelProductNo": "C001-P1000015",
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 15)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "800g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/jjimdak800.jpg"}],
-    "price": {"costPrice": 8000, "salePrice": 12900, "originalPrice": 16000, "discountRate": 19},
-    "stockQuantity": 160,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["찜닭", "안동찜닭", "밀키트"],
+    "price": {
+      "costPrice": 5680,
+      "salePrice": 6888,
+      "originalPrice": 8954,
+      "discountRate": 20
+    },
+    "stockQuantity": 135,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000016,
-    "channelProductNo": "C016-JANGJORIM200",
-    "productName": "한돈 메추리알 장조림 200g",
-    "category": {"categoryId": "10005", "categoryName": "반찬/조림류"},
+    "channelProductNo": "C001-P1000016",
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 16)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉장"},
-      {"attributeName": "중량", "attributeValue": "200g"},
-      {"attributeName": "유통기한", "attributeValue": "제조일로부터 10일"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/jangjorim200.jpg"}],
-    "price": {"costPrice": 3000, "salePrice": 5500, "originalPrice": 6000, "discountRate": 8},
-    "stockQuantity": 70,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["반찬", "장조림", "메추리알"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 6782,
+      "salePrice": 11819,
+      "originalPrice": 15364,
+      "discountRate": 20
+    },
+    "stockQuantity": 102,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000017,
-    "channelProductNo": "C017-MYEOLCHIBOKKEUM150",
-    "productName": "견과류 멸치볶음 150g",
-    "category": {"categoryId": "10005", "categoryName": "반찬/볶음류"},
+    "channelProductNo": "C001-P1000017",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 17)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉장"},
-      {"attributeName": "중량", "attributeValue": "150g"},
-      {"attributeName": "유통기한", "attributeValue": "제조일로부터 10일"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/myeolchi150.jpg"}],
-    "price": {"costPrice": 2500, "salePrice": 4900, "originalPrice": 5500, "discountRate": 10},
-    "stockQuantity": 85,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["반찬", "멸치볶음", "견과류"],
+    "price": {
+      "costPrice": 23628,
+      "salePrice": 38845,
+      "originalPrice": 50498,
+      "discountRate": 20
+    },
+    "stockQuantity": 36,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000018,
-    "channelProductNo": "C018-TTEOKBOKKI400",
-    "productName": "매운 국물 떡볶이 400g (2인분)",
-    "category": {"categoryId": "10003", "categoryName": "간식/떡볶이"},
+    "channelProductNo": "C001-P1000018",
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 18)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉장"},
-      {"attributeName": "중량", "attributeValue": "400g"},
-      {"attributeName": "맛", "attributeValue": "매운맛"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/tteokbokki400.jpg"}],
-    "price": {"costPrice": 3000, "salePrice": 5900, "originalPrice": 7000, "discountRate": 15},
-    "stockQuantity": 130,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["떡볶이", "국물떡볶이", "매운맛", "간식"],
-    "status": "ON_SALE"
+    "price": {
+      "costPrice": 12438,
+      "salePrice": 20840,
+      "originalPrice": 27092,
+      "discountRate": 20
+    },
+    "stockQuantity": 15,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
   },
   {
     "originProductNo": 1000019,
-    "channelProductNo": "C019-HOTDOG500",
-    "productName": "추억의 옛날 핫도그 500g (5개입)",
-    "category": {"categoryId": "10003", "categoryName": "간식/핫도그"},
+    "channelProductNo": "C001-P1000019",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 19)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "500g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/hotdog500.jpg"}],
-    "price": {"costPrice": 4500, "salePrice": 7900, "originalPrice": 9900, "discountRate": 20},
-    "stockQuantity": 220,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["핫도그", "간식", "냉동간식"],
+    "price": {
+      "costPrice": 4506,
+      "salePrice": 5745,
+      "originalPrice": 7468,
+      "discountRate": 20
+    },
+    "stockQuantity": 233,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
     "status": "ON_SALE"
   },
   {
     "originProductNo": 1000020,
-    "channelProductNo": "C020-SOGOGIMUGUK500",
-    "productName": "소고기 뭇국 500g",
-    "category": {"categoryId": "10001", "categoryName": "한식/국밥"},
+    "channelProductNo": "C001-P1000020",
+    "productName": "속초식 닭강정 순살 1박스 (옵션 20)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
     "brand": "서강몰",
-    "manufacturer": "서강푸드",
-    "productAttributes": [
-      {"attributeName": "보관방법", "attributeValue": "냉동"},
-      {"attributeName": "중량", "attributeValue": "500g"}
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
     ],
-    "productImages": [{"url": "https://image.example.com/muguk500.jpg"}],
-    "price": {"costPrice": 3500, "salePrice": 5900, "originalPrice": 7900, "discountRate": 25},
+    "price": {
+      "costPrice": 19497,
+      "salePrice": 24302,
+      "originalPrice": 31592,
+      "discountRate": 20
+    },
+    "stockQuantity": 16,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000021,
+    "channelProductNo": "C001-P1000021",
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 21)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 24129,
+      "salePrice": 29113,
+      "originalPrice": 37846,
+      "discountRate": 20
+    },
+    "stockQuantity": 2,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000022,
+    "channelProductNo": "C001-P1000022",
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 22)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 8072,
+      "salePrice": 9878,
+      "originalPrice": 12841,
+      "discountRate": 20
+    },
+    "stockQuantity": 242,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000023,
+    "channelProductNo": "C001-P1000023",
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 23)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 20345,
+      "salePrice": 26103,
+      "originalPrice": 33933,
+      "discountRate": 20
+    },
+    "stockQuantity": 254,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000024,
+    "channelProductNo": "C001-P1000024",
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 24)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 14285,
+      "salePrice": 24194,
+      "originalPrice": 31452,
+      "discountRate": 20
+    },
+    "stockQuantity": 85,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000025,
+    "channelProductNo": "C001-P1000025",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 25)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 12950,
+      "salePrice": 20574,
+      "originalPrice": 26746,
+      "discountRate": 20
+    },
+    "stockQuantity": 240,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000026,
+    "channelProductNo": "C001-P1000026",
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 26)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 27061,
+      "salePrice": 36960,
+      "originalPrice": 48048,
+      "discountRate": 20
+    },
+    "stockQuantity": 262,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000027,
+    "channelProductNo": "C001-P1000027",
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 27)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 4044,
+      "salePrice": 6393,
+      "originalPrice": 8310,
+      "discountRate": 20
+    },
+    "stockQuantity": 192,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000028,
+    "channelProductNo": "C001-P1000028",
+    "productName": "영광 굴비 10미 가정용 (옵션 28)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 17200,
+      "salePrice": 29344,
+      "originalPrice": 38147,
+      "discountRate": 20
+    },
+    "stockQuantity": 124,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000029,
+    "channelProductNo": "C001-P1000029",
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 29)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 19736,
+      "salePrice": 25821,
+      "originalPrice": 33567,
+      "discountRate": 20
+    },
+    "stockQuantity": 250,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000030,
+    "channelProductNo": "C001-P1000030",
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 30)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 17436,
+      "salePrice": 29187,
+      "originalPrice": 37943,
+      "discountRate": 20
+    },
+    "stockQuantity": 45,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000031,
+    "channelProductNo": "C001-P1000031",
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 31)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11713,
+      "salePrice": 17788,
+      "originalPrice": 23124,
+      "discountRate": 20
+    },
+    "stockQuantity": 29,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000032,
+    "channelProductNo": "C001-P1000032",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 32)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 6969,
+      "salePrice": 11483,
+      "originalPrice": 14927,
+      "discountRate": 20
+    },
     "stockQuantity": 100,
-    "delivery": {"deliveryCompany": "CJ대한통운", "deliveryFee": 3500},
-    "tags": ["소고기뭇국", "국밥", "한식"],
-    "status": "SOLD_OUT"
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000033,
+    "channelProductNo": "C001-P1000033",
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 33)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11731,
+      "salePrice": 19144,
+      "originalPrice": 24887,
+      "discountRate": 20
+    },
+    "stockQuantity": 297,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000034,
+    "channelProductNo": "C001-P1000034",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 34)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 20676,
+      "salePrice": 28027,
+      "originalPrice": 36435,
+      "discountRate": 20
+    },
+    "stockQuantity": 257,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000035,
+    "channelProductNo": "C001-P1000035",
+    "productName": "속초식 닭강정 순살 1박스 (옵션 35)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 14485,
+      "salePrice": 23248,
+      "originalPrice": 30222,
+      "discountRate": 20
+    },
+    "stockQuantity": 186,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000036,
+    "channelProductNo": "C001-P1000036",
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 36)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 3469,
+      "salePrice": 4590,
+      "originalPrice": 5967,
+      "discountRate": 20
+    },
+    "stockQuantity": 177,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000037,
+    "channelProductNo": "C001-P1000037",
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 37)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 21191,
+      "salePrice": 27464,
+      "originalPrice": 35703,
+      "discountRate": 20
+    },
+    "stockQuantity": 257,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000038,
+    "channelProductNo": "C001-P1000038",
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 38)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 9526,
+      "salePrice": 15427,
+      "originalPrice": 20055,
+      "discountRate": 20
+    },
+    "stockQuantity": 258,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000039,
+    "channelProductNo": "C001-P1000039",
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 39)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 22825,
+      "salePrice": 36015,
+      "originalPrice": 46819,
+      "discountRate": 20
+    },
+    "stockQuantity": 108,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000040,
+    "channelProductNo": "C001-P1000040",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 40)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 25479,
+      "salePrice": 35905,
+      "originalPrice": 46676,
+      "discountRate": 20
+    },
+    "stockQuantity": 208,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000041,
+    "channelProductNo": "C001-P1000041",
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 41)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 21906,
+      "salePrice": 32805,
+      "originalPrice": 42646,
+      "discountRate": 20
+    },
+    "stockQuantity": 283,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000042,
+    "channelProductNo": "C001-P1000042",
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 42)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 28288,
+      "salePrice": 47576,
+      "originalPrice": 61848,
+      "discountRate": 20
+    },
+    "stockQuantity": 11,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000043,
+    "channelProductNo": "C001-P1000043",
+    "productName": "영광 굴비 10미 가정용 (옵션 43)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 20032,
+      "salePrice": 28235,
+      "originalPrice": 36705,
+      "discountRate": 20
+    },
+    "stockQuantity": 228,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000044,
+    "channelProductNo": "C001-P1000044",
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 44)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 6784,
+      "salePrice": 8812,
+      "originalPrice": 11455,
+      "discountRate": 20
+    },
+    "stockQuantity": 68,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000045,
+    "channelProductNo": "C001-P1000045",
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 45)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 28767,
+      "salePrice": 40123,
+      "originalPrice": 52159,
+      "discountRate": 20
+    },
+    "stockQuantity": 58,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000046,
+    "channelProductNo": "C001-P1000046",
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 46)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 25922,
+      "salePrice": 32878,
+      "originalPrice": 42741,
+      "discountRate": 20
+    },
+    "stockQuantity": 143,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000047,
+    "channelProductNo": "C001-P1000047",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 47)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 19698,
+      "salePrice": 32171,
+      "originalPrice": 41822,
+      "discountRate": 20
+    },
+    "stockQuantity": 49,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000048,
+    "channelProductNo": "C001-P1000048",
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 48)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 29606,
+      "salePrice": 49916,
+      "originalPrice": 64890,
+      "discountRate": 20
+    },
+    "stockQuantity": 277,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000049,
+    "channelProductNo": "C001-P1000049",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 49)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 19798,
+      "salePrice": 25312,
+      "originalPrice": 32905,
+      "discountRate": 20
+    },
+    "stockQuantity": 10,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000050,
+    "channelProductNo": "C001-P1000050",
+    "productName": "속초식 닭강정 순살 1박스 (옵션 50)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 25455,
+      "salePrice": 43087,
+      "originalPrice": 56013,
+      "discountRate": 20
+    },
+    "stockQuantity": 164,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000051,
+    "channelProductNo": "C001-P1000051",
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 51)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 24329,
+      "salePrice": 43006,
+      "originalPrice": 55907,
+      "discountRate": 20
+    },
+    "stockQuantity": 15,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000052,
+    "channelProductNo": "C001-P1000052",
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 52)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 21640,
+      "salePrice": 26175,
+      "originalPrice": 34027,
+      "discountRate": 20
+    },
+    "stockQuantity": 56,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000053,
+    "channelProductNo": "C001-P1000053",
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 53)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 22770,
+      "salePrice": 40829,
+      "originalPrice": 53077,
+      "discountRate": 20
+    },
+    "stockQuantity": 215,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000054,
+    "channelProductNo": "C001-P1000054",
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 54)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 4465,
+      "salePrice": 6479,
+      "originalPrice": 8422,
+      "discountRate": 20
+    },
+    "stockQuantity": 236,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000055,
+    "channelProductNo": "C001-P1000055",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 55)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 10067,
+      "salePrice": 13584,
+      "originalPrice": 17659,
+      "discountRate": 20
+    },
+    "stockQuantity": 183,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000056,
+    "channelProductNo": "C001-P1000056",
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 56)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 14192,
+      "salePrice": 21336,
+      "originalPrice": 27736,
+      "discountRate": 20
+    },
+    "stockQuantity": 281,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000057,
+    "channelProductNo": "C001-P1000057",
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 57)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 22581,
+      "salePrice": 40643,
+      "originalPrice": 52835,
+      "discountRate": 20
+    },
+    "stockQuantity": 196,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000058,
+    "channelProductNo": "C001-P1000058",
+    "productName": "영광 굴비 10미 가정용 (옵션 58)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 19480,
+      "salePrice": 25366,
+      "originalPrice": 32975,
+      "discountRate": 20
+    },
+    "stockQuantity": 145,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000059,
+    "channelProductNo": "C001-P1000059",
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 59)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 14370,
+      "salePrice": 17996,
+      "originalPrice": 23394,
+      "discountRate": 20
+    },
+    "stockQuantity": 147,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000060,
+    "channelProductNo": "C001-P1000060",
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 60)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 8417,
+      "salePrice": 13341,
+      "originalPrice": 17343,
+      "discountRate": 20
+    },
+    "stockQuantity": 92,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000061,
+    "channelProductNo": "C001-P1000061",
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 61)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11380,
+      "salePrice": 17567,
+      "originalPrice": 22837,
+      "discountRate": 20
+    },
+    "stockQuantity": 255,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000062,
+    "channelProductNo": "C001-P1000062",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 62)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 7039,
+      "salePrice": 8644,
+      "originalPrice": 11237,
+      "discountRate": 20
+    },
+    "stockQuantity": 11,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000063,
+    "channelProductNo": "C001-P1000063",
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 63)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 27664,
+      "salePrice": 48665,
+      "originalPrice": 63264,
+      "discountRate": 20
+    },
+    "stockQuantity": 61,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000064,
+    "channelProductNo": "C001-P1000064",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 64)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 5954,
+      "salePrice": 8355,
+      "originalPrice": 10861,
+      "discountRate": 20
+    },
+    "stockQuantity": 42,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000065,
+    "channelProductNo": "C001-P1000065",
+    "productName": "속초식 닭강정 순살 1박스 (옵션 65)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11003,
+      "salePrice": 13588,
+      "originalPrice": 17664,
+      "discountRate": 20
+    },
+    "stockQuantity": 34,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000066,
+    "channelProductNo": "C001-P1000066",
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 66)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 25065,
+      "salePrice": 42203,
+      "originalPrice": 54863,
+      "discountRate": 20
+    },
+    "stockQuantity": 284,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000067,
+    "channelProductNo": "C001-P1000067",
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 67)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 9388,
+      "salePrice": 16514,
+      "originalPrice": 21468,
+      "discountRate": 20
+    },
+    "stockQuantity": 83,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000068,
+    "channelProductNo": "C001-P1000068",
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 68)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 4160,
+      "salePrice": 5565,
+      "originalPrice": 7234,
+      "discountRate": 20
+    },
+    "stockQuantity": 1,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000069,
+    "channelProductNo": "C001-P1000069",
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 69)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 5012,
+      "salePrice": 7967,
+      "originalPrice": 10357,
+      "discountRate": 20
+    },
+    "stockQuantity": 287,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000070,
+    "channelProductNo": "C001-P1000070",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 70)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 29537,
+      "salePrice": 46100,
+      "originalPrice": 59930,
+      "discountRate": 20
+    },
+    "stockQuantity": 142,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000071,
+    "channelProductNo": "C001-P1000071",
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 71)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11909,
+      "salePrice": 21056,
+      "originalPrice": 27372,
+      "discountRate": 20
+    },
+    "stockQuantity": 244,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000072,
+    "channelProductNo": "C001-P1000072",
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 72)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 7669,
+      "salePrice": 10553,
+      "originalPrice": 13718,
+      "discountRate": 20
+    },
+    "stockQuantity": 222,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000073,
+    "channelProductNo": "C001-P1000073",
+    "productName": "영광 굴비 10미 가정용 (옵션 73)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 8894,
+      "salePrice": 14959,
+      "originalPrice": 19446,
+      "discountRate": 20
+    },
+    "stockQuantity": 160,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000074,
+    "channelProductNo": "C001-P1000074",
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 74)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 15800,
+      "salePrice": 27897,
+      "originalPrice": 36266,
+      "discountRate": 20
+    },
+    "stockQuantity": 172,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000075,
+    "channelProductNo": "C001-P1000075",
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 75)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 4260,
+      "salePrice": 6406,
+      "originalPrice": 8327,
+      "discountRate": 20
+    },
+    "stockQuantity": 143,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000076,
+    "channelProductNo": "C001-P1000076",
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 76)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 10954,
+      "salePrice": 17046,
+      "originalPrice": 22159,
+      "discountRate": 20
+    },
+    "stockQuantity": 90,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000077,
+    "channelProductNo": "C001-P1000077",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 77)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 6529,
+      "salePrice": 9593,
+      "originalPrice": 12470,
+      "discountRate": 20
+    },
+    "stockQuantity": 67,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000078,
+    "channelProductNo": "C001-P1000078",
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 78)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 4062,
+      "salePrice": 6532,
+      "originalPrice": 8491,
+      "discountRate": 20
+    },
+    "stockQuantity": 71,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000079,
+    "channelProductNo": "C001-P1000079",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 79)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 28213,
+      "salePrice": 43538,
+      "originalPrice": 56599,
+      "discountRate": 20
+    },
+    "stockQuantity": 89,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000080,
+    "channelProductNo": "C001-P1000080",
+    "productName": "속초식 닭강정 순살 1박스 (옵션 80)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11510,
+      "salePrice": 16912,
+      "originalPrice": 21985,
+      "discountRate": 20
+    },
+    "stockQuantity": 106,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000081,
+    "channelProductNo": "C001-P1000081",
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 81)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 13156,
+      "salePrice": 17806,
+      "originalPrice": 23147,
+      "discountRate": 20
+    },
+    "stockQuantity": 108,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000082,
+    "channelProductNo": "C001-P1000082",
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 82)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 4237,
+      "salePrice": 5557,
+      "originalPrice": 7224,
+      "discountRate": 20
+    },
+    "stockQuantity": 272,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000083,
+    "channelProductNo": "C001-P1000083",
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 83)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 29292,
+      "salePrice": 47114,
+      "originalPrice": 61248,
+      "discountRate": 20
+    },
+    "stockQuantity": 234,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [
+      "베스트셀러"
+    ],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000084,
+    "channelProductNo": "C001-P1000084",
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 84)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 7142,
+      "salePrice": 10010,
+      "originalPrice": 13013,
+      "discountRate": 20
+    },
+    "stockQuantity": 162,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000085,
+    "channelProductNo": "C001-P1000085",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 85)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 10495,
+      "salePrice": 15632,
+      "originalPrice": 20321,
+      "discountRate": 20
+    },
+    "stockQuantity": 49,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000086,
+    "channelProductNo": "C001-P1000086",
+    "productName": "마라탕 밀키트 푸주 당면 포함 2~3인분 (옵션 86)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 10716,
+      "salePrice": 13148,
+      "originalPrice": 17092,
+      "discountRate": 20
+    },
+    "stockQuantity": 298,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000087,
+    "channelProductNo": "C001-P1000087",
+    "productName": "춘천식 철판 닭갈비 1kg (옵션 87)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11807,
+      "salePrice": 17086,
+      "originalPrice": 22211,
+      "discountRate": 20
+    },
+    "stockQuantity": 145,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000088,
+    "channelProductNo": "C001-P1000088",
+    "productName": "영광 굴비 10미 가정용 (옵션 88)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 16932,
+      "salePrice": 20329,
+      "originalPrice": 26427,
+      "discountRate": 20
+    },
+    "stockQuantity": 72,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000089,
+    "channelProductNo": "C001-P1000089",
+    "productName": "샤인머스켓 2kg 프리미엄 과일 (옵션 89)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 23284,
+      "salePrice": 31725,
+      "originalPrice": 41242,
+      "discountRate": 20
+    },
+    "stockQuantity": 196,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000090,
+    "channelProductNo": "C001-P1000090",
+    "productName": "얼큰 소고기 뭇국 500g 밀키트 (옵션 90)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 29108,
+      "salePrice": 46421,
+      "originalPrice": 60347,
+      "discountRate": 20
+    },
+    "stockQuantity": 276,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000091,
+    "channelProductNo": "C001-P1000091",
+    "productName": "순살 왕갈비탕 밀키트 650g (옵션 91)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 3030,
+      "salePrice": 3826,
+      "originalPrice": 4973,
+      "discountRate": 20
+    },
+    "stockQuantity": 257,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000092,
+    "channelProductNo": "C001-P1000092",
+    "productName": "치즈 듬뿍 수제 돈까스 2장 세트 (옵션 92)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 15421,
+      "salePrice": 20088,
+      "originalPrice": 26114,
+      "discountRate": 20
+    },
+    "stockQuantity": 281,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000093,
+    "channelProductNo": "C001-P1000093",
+    "productName": "부산 어묵 꼬치 세트 10꼬치 (옵션 93)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 21361,
+      "salePrice": 35593,
+      "originalPrice": 46270,
+      "discountRate": 20
+    },
+    "stockQuantity": 87,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000094,
+    "channelProductNo": "C001-P1000094",
+    "productName": "무항생제 1등급 삼겹살 500g 구이용 (옵션 94)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 18038,
+      "salePrice": 27399,
+      "originalPrice": 35618,
+      "discountRate": 20
+    },
+    "stockQuantity": 269,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000095,
+    "channelProductNo": "C001-P1000095",
+    "productName": "속초식 닭강정 순살 1박스 (옵션 95)",
+    "category": {
+      "categoryId": "10004",
+      "categoryName": "수산물"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 24166,
+      "salePrice": 33640,
+      "originalPrice": 43732,
+      "discountRate": 20
+    },
+    "stockQuantity": 113,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000096,
+    "channelProductNo": "C001-P1000096",
+    "productName": "프리미엄 한우 채끝 스테이크 200g (옵션 96)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 8700,
+      "salePrice": 11073,
+      "originalPrice": 14394,
+      "discountRate": 20
+    },
+    "stockQuantity": 11,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "OUT_OF_STOCK"
+  },
+  {
+    "originProductNo": 1000097,
+    "channelProductNo": "C001-P1000097",
+    "productName": "제주 고당도 감귤 3kg 박스 (옵션 97)",
+    "category": {
+      "categoryId": "10005",
+      "categoryName": "과일/채소"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 25675,
+      "salePrice": 35714,
+      "originalPrice": 46428,
+      "discountRate": 20
+    },
+    "stockQuantity": 286,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000098,
+    "channelProductNo": "C001-P1000098",
+    "productName": "통통한 바지락살 500g 찌개용 (옵션 98)",
+    "category": {
+      "categoryId": "10002",
+      "categoryName": "간식/야식"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 11815,
+      "salePrice": 14791,
+      "originalPrice": 19228,
+      "discountRate": 20
+    },
+    "stockQuantity": 65,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000099,
+    "channelProductNo": "C001-P1000099",
+    "productName": "매콤 제육볶음 밀키트 2인분 (옵션 99)",
+    "category": {
+      "categoryId": "10001",
+      "categoryName": "한식/탕류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 22897,
+      "salePrice": 38398,
+      "originalPrice": 49917,
+      "discountRate": 20
+    },
+    "stockQuantity": 7,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
+  },
+  {
+    "originProductNo": 1000100,
+    "channelProductNo": "C001-P1000100",
+    "productName": "부대찌개 밀키트 햄 듬뿍 3인분 (옵션 100)",
+    "category": {
+      "categoryId": "10003",
+      "categoryName": "신선육류"
+    },
+    "brand": "서강몰",
+    "manufacturer": "서강제조",
+    "productAttributes": [],
+    "productImages": [
+      {
+        "url": "https://image.example.com/placeholder.jpg"
+      }
+    ],
+    "price": {
+      "costPrice": 18753,
+      "salePrice": 28504,
+      "originalPrice": 37055,
+      "discountRate": 20
+    },
+    "stockQuantity": 258,
+    "delivery": {
+      "deliveryCompany": "CJ대한통운",
+      "deliveryFee": 3000
+    },
+    "tags": [],
+    "status": "ON_SALE"
   }
 ]

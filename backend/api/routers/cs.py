@@ -77,23 +77,41 @@ async def get_ai_suggestion(
     orchestrator: AgentOrchestrator = Depends(get_ai_orchestrator)
 ):
     """
-    Quick RAG-based suggestion (no tools).
-    Currently routes through the same CS graph, but we can optimize this later.
+    Generate an AI reply draft on-demand using OpenAI API.
+    Uses a lightweight model (gpt-4o-mini).
     """
+    import os
+    api_key = os.getenv("OPENAI_API_KEY", "")
+    
+    # Fallback if API key is not provided
+    if not api_key:
+        return {"suggestion": f"고객님, 문의하신 '{req.question[:15]}...' 건에 대해 확인 중입니다. 잠시만 기다려주세요. (OpenAI API 키가 설정되지 않았습니다.)"}
+        
     try:
-        result = await orchestrator.invoke(
-            session_type="cs", 
-            query=req.question
+        import openai
+        client = openai.AsyncOpenAI(api_key=api_key)
+        response = await client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system", 
+                    "content": "당신은 쇼핑몰의 전문적인 CS 상담원입니다. 고객의 문의 내용에 대해 문제 해결, 사과, 또는 안내를 친절하게 제공하는 답변 초안을 2~3문장으로 짧게 작성하세요. 불필요한 인사말은 생략하고 바로 본론으로 답변하세요."
+                },
+                {"role": "user", "content": f"고객 문의: {req.question}"}
+            ],
+            max_tokens=150
         )
-        return {"suggestion": result["text"]}
+        reply = response.choices[0].message.content.strip()
+        return {"suggestion": reply}
     except Exception as e:
-        return {"error": str(e)}
+        print(f"OpenAI error: {e}")
+        return {"suggestion": f"고객님, 문의하신 '{req.question[:15]}...' 건에 대해 신속히 확인하여 안내해 드리겠습니다. (AI 응답 생성 실패)"}
 
 
 @router.get("/inquiries")
 async def get_inquiries():
     """Get unresolved inquiries."""
-    data = get_inquiries_by_status("unresolved")
+    data = get_inquiries_by_status(False)
     return data
 
 

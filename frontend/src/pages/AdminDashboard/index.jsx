@@ -12,10 +12,9 @@ const AdminDashboard = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // BI Chatbot
-  const [biChatMessages, setBiChatMessages] = useState([{ sender: 'ai', text: '안녕하세요, CEO님. 오늘 상점의 주요 지표를 요약해 드릴까요?' }]);
-  const [biChatInput, setBiChatInput] = useState('');
-  const [biChatLoading, setBiChatLoading] = useState(false);
+  // Insights
+  const [insights, setInsights] = useState([]);
+  const [insightsLoading, setInsightsLoading] = useState(true);
 
   // CRM
   const [vipCustomers, setVipCustomers] = useState([]);
@@ -25,13 +24,14 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [kpiRes, warningsRes, salesRes, reviewsRes, vipRes, atRiskRes] = await Promise.all([
+        const [kpiRes, warningsRes, salesRes, reviewsRes, vipRes, atRiskRes, insightsRes] = await Promise.all([
           apiClient.get('/dashboard/kpis'),
           apiClient.get('/dashboard/warnings'),
           apiClient.get('/dashboard/sales-trend'),
           apiClient.get('/reviews/negative'),
           apiClient.get('/crm/segments/vip'),
-          apiClient.get('/crm/segments/at-risk')
+          apiClient.get('/crm/segments/at-risk'),
+          apiClient.get('/dashboard/insights').catch(() => ({ data: { insights: [] } }))
         ]);
 
         setKpis(kpiRes.data);
@@ -40,6 +40,8 @@ const AdminDashboard = () => {
         setNegativeReviews(reviewsRes.data);
         setVipCustomers(vipRes.data);
         setAtRiskCustomers(atRiskRes.data);
+        setInsights(insightsRes.data.insights || []);
+        setInsightsLoading(false);
 
       } catch (err) {
         setError('대시보드 데이터를 불러오는 데 실패했습니다.');
@@ -52,26 +54,6 @@ const AdminDashboard = () => {
     fetchData();
   }, []);
 
-  const handleBiChatSubmit = async () => {
-    if (biChatInput.trim() === '') return;
-
-    const newUserMessage = { sender: 'user', text: biChatInput };
-    setBiChatMessages((prev) => [...prev, newUserMessage]);
-    setBiChatInput('');
-    setBiChatLoading(true);
-
-    try {
-      const response = await apiClient.post('/cs/chat', {
-        customer_id: "BI_USER", // Special ID for BI agent
-        query: biChatInput,
-      });
-      setBiChatMessages((prev) => [...prev, { sender: 'ai', text: response.data.answer || response.data.response }]);
-    } catch (err) {
-      setBiChatMessages((prev) => [...prev, { sender: 'ai', text: 'BI 에이전트 연결에 실패했습니다.' }]);
-    } finally {
-      setBiChatLoading(false);
-    }
-  };
 
   const handleSendCoupon = async () => {
     if (atRiskCustomers.length === 0) {
@@ -155,37 +137,38 @@ const AdminDashboard = () => {
           </Box>
         </Grid>
 
-        {/* BI Chatbot */}
+        {/* Operational Insights */}
         <Grid item xs={12} lg={4}>
           <Box className="glass-panel animate-fade-in" sx={{ p: 0, height: '400px', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
             <Box sx={{ p: 2, borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
               <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                <Star size={18} color="#f59e0b" /> AI 비즈니스 코파일럿
+                <Star size={18} color="#f59e0b" /> 운영 인사이트
               </Typography>
             </Box>
-            <Box sx={{ p: 2, flexGrow: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-              {biChatMessages.map((msg, i) => (
-                <Box key={i} sx={{ display: 'flex', justifyContent: msg.sender === 'user' ? 'flex-end' : 'flex-start' }}>
-                  <Box sx={{ 
-                    maxWidth: '80%', p: 1.5, borderRadius: '12px',
-                    bgcolor: msg.sender === 'user' ? 'primary.main' : 'rgba(255,255,255,0.05)',
-                    color: '#fff', fontSize: '0.875rem'
-                  }}>
-                    {msg.text}
-                  </Box>
+            <Box sx={{ p: 2, flexGrow: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+              {insightsLoading ? (
+                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                  <CircularProgress size={30} />
                 </Box>
-              ))}
+              ) : (
+                <List sx={{ pt: 0 }}>
+                  {insights.map((insight, i) => (
+                    <ListItem key={i} sx={{ px: 0, py: 1.5, borderBottom: i < insights.length - 1 ? '1px solid rgba(255,255,255,0.05)' : 'none' }}>
+                      <Box sx={{ display: 'flex', gap: 1.5, alignItems: 'flex-start' }}>
+                        <Box sx={{ mt: 0.5, width: 6, height: 6, borderRadius: '50%', bgcolor: 'primary.main', flexShrink: 0 }} />
+                        <Typography variant="body2" sx={{ color: 'text.primary', lineHeight: 1.6 }}>
+                          {insight}
+                        </Typography>
+                      </Box>
+                    </ListItem>
+                  ))}
+                </List>
+              )}
             </Box>
-            <Box sx={{ p: 2, borderTop: '1px solid rgba(255,255,255,0.05)', display: 'flex', gap: 1 }}>
-              <TextField 
-                fullWidth size="small" variant="outlined" placeholder="매출 원인이 뭐야?"
-                value={biChatInput} onChange={(e) => setBiChatInput(e.target.value)}
-                onKeyPress={(e) => e.key === 'Enter' && handleBiChatSubmit()}
-                sx={{ '& .MuiOutlinedInput-root': { borderRadius: '8px' } }}
-              />
-              <IconButton color="primary" onClick={handleBiChatSubmit} disabled={biChatLoading} sx={{ bgcolor: 'primary.main', color: '#fff', borderRadius: '8px', '&:hover': { bgcolor: 'primary.dark' } }}>
-                {biChatLoading ? <CircularProgress size={20} color="inherit" /> : <Send size={18} />}
-              </IconButton>
+            <Box sx={{ p: 2, borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+              <Button fullWidth variant="outlined" sx={{ color: 'text.secondary', borderColor: 'rgba(255,255,255,0.1)' }}>
+                자세히 보기
+              </Button>
             </Box>
           </Box>
         </Grid>
@@ -217,14 +200,38 @@ const AdminDashboard = () => {
                 <Tab label="이탈 위험" sx={{ minHeight: '32px', py: 0 }} />
               </Tabs>
             </Typography>
-            <List sx={{ maxHeight: '180px', overflowY: 'auto' }}>
+            <List sx={{ maxHeight: '200px', overflowY: 'auto' }}>
               {selectedCustomerTab === 0 ? vipCustomers.map(c => (
-                <ListItem key={c.customer_id} sx={{ px: 0 }}>
-                  <ListItemText primary={c.name} secondary={`누적 구매액: ₩${(c.total_spend||0).toLocaleString()}`} />
+                <ListItem key={c.customer_id} sx={{ px: 0, borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+                  <ListItemText 
+                    primary={
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        {c.name} 
+                        <Chip label="VIP" size="small" sx={{ height: 18, fontSize: '0.65rem', bgcolor: 'rgba(139, 92, 246, 0.2)', color: '#a78bfa', fontWeight: 'bold' }} />
+                      </Box>
+                    } 
+                    secondary={`누적 ₩${(c.total_spend||0).toLocaleString()} (주문 ${c.total_orders}회)`} 
+                  />
+                  <Typography variant="caption" color="text.secondary" sx={{ textAlign: 'right' }}>
+                    최근 30일 내 구매<br/>
+                    (충성 고객)
+                  </Typography>
                 </ListItem>
               )) : atRiskCustomers.map(c => (
-                <ListItem key={c.customer_id} sx={{ px: 0 }}>
-                  <ListItemText primary={c.name} secondary={`누적 구매액: ₩${(c.total_spend||0).toLocaleString()}`} />
+                <ListItem key={c.customer_id} sx={{ px: 0, borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+                  <ListItemText 
+                    primary={
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        {c.name} 
+                        <Chip label="이탈위험" size="small" sx={{ height: 18, fontSize: '0.65rem', bgcolor: 'rgba(239, 68, 68, 0.2)', color: '#f87171', fontWeight: 'bold' }} />
+                      </Box>
+                    } 
+                    secondary={`누적 ₩${(c.total_spend||0).toLocaleString()} (주문 ${c.total_orders}회)`} 
+                  />
+                  <Typography variant="caption" color="text.secondary" sx={{ textAlign: 'right' }}>
+                    60일 이상 미방문<br/>
+                    (관리 요망)
+                  </Typography>
                 </ListItem>
               ))}
             </List>
