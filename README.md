@@ -1,6 +1,14 @@
 # 🚀 AI-Store Manager (AI-Powered CRM Manager for Small Business Owners)
 
-> ⚠️ **WORK IN PROGRESS**: This project is currently undergoing a massive structural refactoring and UI/UX redesign (Evolving into AI Store Manager OS). The codebase is transitioning to a scalable LangGraph multi-agent architecture and premium glassmorphic React UI. Some documentation below may be outdated.
+> ⚠️ **WORK IN PROGRESS**: 이 프로젝트는 단순한 CS/CRM 툴을 넘어, 1인 쇼핑몰 셀러를 위한 **[올인원 AI Store Manager OS]** 로 진화하기 위해 대대적인 리팩토링 및 구조 개선을 진행 중입니다.
+> 
+> **진행 중인 주요 개선 사항 (Roadmap):**
+> - 🧠 **LangGraph 기반 멀티 에이전트 아키텍처:** 단일 챗봇을 넘어 CS 에이전트, 비즈니스 코파일럿, 리뷰 관리 에이전트 등 다수의 AI 에이전트가 협력하는 구조로 전환
+> - 🎨 **프리미엄 UI/UX 리디자인:** Glassmorphism(글래스모피즘) 다크 테마 및 Recharts를 활용한 데이터 시각화를 통해 직관적이고 세련된 대시보드 구축
+> - 🏗️ **백엔드 구조 고도화:** FastAPI 베스트 프랙티스 적용, SQLAlchemy ORM 연동, uv를 활용한 패키지 관리 등 프로덕션 레벨의 확장 가능한 백엔드 구축
+> - ⚙️ **비용 최적화 운영:** 추가 과금 인프라(Redis, MQ 등) 없이 BackgroundTasks 및 로컬 캐싱을 활용한 제로 코스트 아키텍처 구현
+> 
+> *현재 문서의 일부 스크린샷과 설명은 구버전 기준이며, 작업 완료 후 전면 업데이트될 예정입니다.*
 
 > **Note:** This project is an AI-powered manager solution designed to help sole proprietors and small business owners automate and enhance customer service (CS), review management, customer relationship management (CRM), and business data analysis, allowing them to focus on growing their business.
 
