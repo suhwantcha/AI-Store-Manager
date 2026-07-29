@@ -1,4 +1,4 @@
-# 🚀 AI-Store-Manager (WIP)
+# AI-Store-Manager (WIP)
 
 > **Note: This project is currently under active development (Work In Progress).** Features, architecture, and documentation are subject to change.
 
@@ -6,7 +6,7 @@ AI-Store-Manager is an **Agentic AI Operating System** tailored for solo e-comme
 
 ---
 
-## ✨ Core Philosophy
+## Core Philosophy
 - **Subtle but Powerful AI**: AI is embedded naturally into the workflow (e.g., "Operational Insights", "Smart Briefings", "Review Auto-Replies") without overwhelming the user with overly flashy "AI" labels.
 - **Agentic Workflows**: Utilizes LangGraph to orchestrate agents that can proactively fetch data, search manuals (RAG), and execute tasks.
 - **Organic Data Simulation**: The platform runs on a deeply interconnected mock dataset where orders, customer segments (e.g., VIP vs. Churn Risk), shipping delays, and QnAs/Reviews organically affect one another.
@@ -149,3 +149,25 @@ LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 LANGSMITH_API_KEY="your-langsmith-api-key"
 LANGSMITH_PROJECT="ai-store-manager"
 ```
+
+---
+
+### 📸 Application Screenshots
+
+<table>
+  <tr>
+    <td><img src="placeholder1.png" alt="Dashboard" width="100%"></td>
+    <td><img src="placeholder2.png" alt="CS Agent Hub" width="100%"></td>
+    <td><img src="placeholder3.png" alt="Orders" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="placeholder4.png" alt="Products" width="100%"></td>
+    <td><img src="placeholder5.png" alt="Inventory" width="100%"></td>
+    <td><img src="placeholder6.png" alt="Reviews" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="placeholder7.png" alt="CRM" width="100%"></td>
+    <td><img src="placeholder8.png" alt="Analytics" width="100%"></td>
+    <td><img src="placeholder9.png" alt="AI Manager" width="100%"></td>
+  </tr>
+</table>
