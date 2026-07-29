@@ -1,14 +1,14 @@
 # 🚀 AI-Store Manager (AI-Powered CRM Manager for Small Business Owners)
 
-> ⚠️ **WORK IN PROGRESS**: 이 프로젝트는 단순한 CS/CRM 툴을 넘어, 1인 쇼핑몰 셀러를 위한 **[올인원 AI Store Manager OS]** 로 진화하기 위해 대대적인 리팩토링 및 구조 개선을 진행 중입니다.
+> ⚠️ **WORK IN PROGRESS**: This project is evolving from a simple CS/CRM tool into an **[All-in-One AI Store Manager OS]** tailored for solo e-commerce sellers. A massive structural refactoring and UI/UX redesign is currently underway.
 > 
-> **진행 중인 주요 개선 사항 (Roadmap):**
-> - 🧠 **LangGraph 기반 멀티 에이전트 아키텍처:** 단일 챗봇을 넘어 CS 에이전트, 비즈니스 코파일럿, 리뷰 관리 에이전트 등 다수의 AI 에이전트가 협력하는 구조로 전환
-> - 🎨 **프리미엄 UI/UX 리디자인:** Glassmorphism(글래스모피즘) 다크 테마 및 Recharts를 활용한 데이터 시각화를 통해 직관적이고 세련된 대시보드 구축
-> - 🏗️ **백엔드 구조 고도화:** FastAPI 베스트 프랙티스 적용, SQLAlchemy ORM 연동, uv를 활용한 패키지 관리 등 프로덕션 레벨의 확장 가능한 백엔드 구축
-> - ⚙️ **비용 최적화 운영:** 추가 과금 인프라(Redis, MQ 등) 없이 BackgroundTasks 및 로컬 캐싱을 활용한 제로 코스트 아키텍처 구현
+> **Key Improvements (Roadmap):**
+> - 🧠 **LangGraph-based Multi-Agent Architecture:** Transitioning from a single chatbot to a collaborative multi-agent system (CS Agent, Business Copilot, Review Agent, etc.).
+> - 🎨 **Premium UI/UX Redesign:** Implementing a modern glassmorphic dark theme and intuitive data visualization using Recharts.
+> - 🏗️ **Backend Architecture Upgrade:** Adopting FastAPI best practices, SQLAlchemy ORM, and the `uv` package manager for a production-ready backend.
+> - ⚙️ **Zero-Cost Infrastructure:** Optimizing operations using FastAPI BackgroundTasks and local caching to eliminate the need for paid services (Redis, MQ, etc.).
 > 
-> *현재 문서의 일부 스크린샷과 설명은 구버전 기준이며, 작업 완료 후 전면 업데이트될 예정입니다.*
+> *Note: Some screenshots and descriptions below reflect the older version and will be fully updated upon project completion.*
 
 > **Note:** This project is an AI-powered manager solution designed to help sole proprietors and small business owners automate and enhance customer service (CS), review management, customer relationship management (CRM), and business data analysis, allowing them to focus on growing their business.
 
