@@ -159,6 +159,7 @@ This system provides role-specific features for two types of internal users—**
 ├── rag_connector.py          # RAG (ChromaDB) connection logic
 ├── seed_cloud_sql.py         # Database table creation and data seeding
 │
+├── AI_CRM_Manager_Project_Report.pdf   # Detailed project documentation
 ├── requirements.txt          # Python dependency list
 └── README.md                 # Project documentation
 ```
