@@ -1,0 +1,26 @@
+[project]
+name = "ai-store-manager"
+version = "2.0.0"
+description = "AI Customer Manager for Self-Employed Owners"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "psycopg2-binary>=2.9.0",
+    "chromadb>=0.4.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.12.0",
+    "pydantic-settings>=2.0.0",
+    "diskcache>=5.6.0",
+    "langchain-core>=0.1.0",
+    "langchain-openai>=0.0.8",
+    "langgraph>=0.0.26",
+    "pydantic>=2.0.0",
+    "python-multipart>=0.0.9"
+]
+
+[tool.uv]
+package = false

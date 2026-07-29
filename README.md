@@ -1,4 +1,6 @@
-# 🚀 AI-Powered CRM Manager for Small Business Owners
+# 🚀 AI-Store Manager (AI-Powered CRM Manager for Small Business Owners)
+
+> ⚠️ **WORK IN PROGRESS**: This project is currently undergoing a massive structural refactoring and UI/UX redesign (Evolving into AI Store Manager OS). The codebase is transitioning to a scalable LangGraph multi-agent architecture and premium glassmorphic React UI. Some documentation below may be outdated.
 
 > **Note:** This project is an AI-powered manager solution designed to help sole proprietors and small business owners automate and enhance customer service (CS), review management, customer relationship management (CRM), and business data analysis, allowing them to focus on growing their business.
 
