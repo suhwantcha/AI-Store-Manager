@@ -156,18 +156,18 @@ LANGSMITH_PROJECT="ai-store-manager"
 
 <table>
   <tr>
-    <td><img src="placeholder1.png" alt="Dashboard" width="100%"></td>
-    <td><img src="placeholder2.png" alt="CS Agent Hub" width="100%"></td>
-    <td><img src="placeholder3.png" alt="Orders" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/1e118595-7094-4215-aa59-fef978b03a63" alt="Dashboard" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/15016e00-8a5f-4c59-9543-d1906421c703" alt="CS Agent Hub" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/0de1e719-06ed-4641-a27d-9828a1e4d855" alt="Orders" width="100%"></td> 
   </tr>
   <tr>
-    <td><img src="placeholder4.png" alt="Products" width="100%"></td>
-    <td><img src="placeholder5.png" alt="Inventory" width="100%"></td>
-    <td><img src="placeholder6.png" alt="Reviews" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/b892b57d-5756-4ff2-9d5b-009e8d60d6d8" alt="Products" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/b91e97be-8c7e-45d8-91e9-8d23f57ce0bd" alt="Inventory" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/feeab8dc-a63f-44e8-b062-c0fb5c740a2e" alt="Reviews" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="placeholder7.png" alt="CRM" width="100%"></td>
-    <td><img src="placeholder8.png" alt="Analytics" width="100%"></td>
-    <td><img src="placeholder9.png" alt="AI Manager" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/f1bc7004-b409-4280-912c-2e77decdcd35" alt="CRM" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/9f2bee29-f5a4-4c30-bc6f-6ea9a5bbc33a" alt="Analytics" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/d2a88f89-ced6-49f0-b71f-97690e78007e" alt="AI Manager" width="100%"></td>
   </tr>
 </table>
