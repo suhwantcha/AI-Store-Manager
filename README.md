@@ -6,6 +6,15 @@ AI-Store-Manager is an **Agentic AI Operating System** tailored for solo e-comme
 
 ---
 
+## Current Status
+
+This project is a functional prototype.
+
+Core AI workflows (multi-agent orchestration, RAG, customer support, CRM analysis, dashboard insights) are fully implemented.
+
+Some business actions such as shipment processing, review submission, and marketplace integrations are currently represented as UI prototypes and will be connected to external APIs in future versions.
+
+---
 ## Core Philosophy
 - **Subtle but Powerful AI**: AI is embedded naturally into the workflow (e.g., "Operational Insights", "Smart Briefings", "Review Auto-Replies") without overwhelming the user with overly flashy "AI" labels.
 - **Agentic Workflows**: Utilizes LangGraph to orchestrate agents that can proactively fetch data, search manuals (RAG), and execute tasks.
