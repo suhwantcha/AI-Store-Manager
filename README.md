@@ -25,6 +25,7 @@ The central hub for store operations.
 A fully functional Customer Support workspace.
 - **RAG-Powered AI Responses**: The AI searches through detailed `cs_manuals.json` (embedded in ChromaDB) to answer complex inquiries perfectly aligned with store policies.
 - **Customer 360° View**: Displays the customer's total spend, past claims, recent orders, and automatically recommends the appropriate CS manual.
+- **Self-Evolution Loop**: If the AI suggests an incorrect response, the human agent can provide negative feedback along with the correct resolution. The backend Evolution Engine then uses GPT-4o-mini to extract a new policy rule, appends it to `cs_manuals.json`, and embeds it into ChromaDB in real-time so the AI never makes the same mistake twice.
 
 ### 3. Orders Management (`/orders`)
 - Comprehensive overview of all customer orders.

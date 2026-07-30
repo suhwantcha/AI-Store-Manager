@@ -54,21 +54,12 @@ const Chat = ({ inquiry }) => {
         message: input, 
       };
 
-      const response = await apiClient.post('/cs/chat', payload);
+      // 백엔드로 전송하여 고객에게 답변 전달 및 로그 저장 처리 (AI 응답은 화면에 표시하지 않음)
+      await apiClient.post('/cs/chat', payload);
 
-      const aiMessage = {
-        sender: 'ai',
-        text: response.data.response,
-        log_id: response.data.log_id,
-      };
-      setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
-      const errorMessage = {
-        sender: 'ai',
-        text: `Error: ${error.response?.data?.detail || error.message}`,
-        log_id: null,
-      };
-      setMessages((prev) => [...prev, errorMessage]);
+      console.error('Failed to send message:', error);
+      alert(`메시지 전송 실패: ${error.response?.data?.detail || error.message}`);
     } finally {
       setLoading(false);
     }
@@ -85,14 +76,13 @@ const Chat = ({ inquiry }) => {
     }
 
     try {
-        const formData = new FormData();
-        formData.append('log_id', log_id);
-        formData.append('resolution_feedback', feedback);
-        if (final_resolution) {
-            formData.append('final_resolution', final_resolution);
-        }
+        const payload = {
+            log_id: log_id,
+            resolution_feedback: feedback,
+            final_resolution: final_resolution
+        };
         
-        await apiClient.post('/cs/feedback', formData);
+        await apiClient.post('/cs/feedback', payload);
         alert('피드백이 성공적으로 전송되었습니다!');
     } catch (error) {
         alert(`피드백 전송 실패: ${error.response?.data?.detail || error.message}`);
@@ -114,11 +104,11 @@ const Chat = ({ inquiry }) => {
       <Box sx={{ flexGrow: 1, overflowY: 'auto', p: 2 }}>
         <List>
           {messages.map((msg, index) => (
-            <ListItem key={index} sx={{ justifyContent: msg.sender === 'user' || msg.sender === 'agent' ? 'flex-end' : 'flex-start' }}>
+            <ListItem key={index} sx={{ justifyContent: msg.sender === 'agent' ? 'flex-end' : 'flex-start' }}>
               <Box
                 sx={{
-                  bgcolor: msg.sender === 'user' || msg.sender === 'agent' ? 'primary.main' : 'grey.300',
-                  color: msg.sender === 'user' || msg.sender === 'agent' ? 'primary.contrastText' : 'text.primary',
+                  bgcolor: msg.sender === 'agent' ? 'primary.main' : 'rgba(255, 255, 255, 0.1)',
+                  color: msg.sender === 'agent' ? 'primary.contrastText' : '#ffffff',
                   p: 1.5,
                   borderRadius: 2,
                   maxWidth: '80%',
@@ -128,7 +118,7 @@ const Chat = ({ inquiry }) => {
                     primary={msg.text} 
                     secondary={msg.sender === 'user' ? '고객' : msg.sender === 'agent' ? '상담원' : 'AI'}
                     secondaryTypographyProps={{ 
-                        color: msg.sender === 'user' || msg.sender === 'agent' ? 'rgba(255, 255, 255, 0.7)' : 'text.secondary',
+                        color: msg.sender === 'agent' ? 'rgba(255, 255, 255, 0.7)' : 'rgba(255, 255, 255, 0.5)',
                         textAlign: 'left'
                     }}
                 />

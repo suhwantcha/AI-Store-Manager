@@ -2,7 +2,7 @@
 CS Router.
 Handles chat, AI suggestions, and inquiry management.
 """
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, BackgroundTasks
 from pydantic import BaseModel
 import uuid
 
@@ -13,6 +13,7 @@ from backend.database.legacy import (
     save_inquiry_log,
     update_inquiry_log_feedback
 )
+from backend.services.evolution_service import evolve_knowledge
 
 
 router = APIRouter(prefix="/api/cs", tags=["Customer Support"])
@@ -29,8 +30,8 @@ class SuggestionRequest(BaseModel):
 
 class FeedbackRequest(BaseModel):
     log_id: str
-    is_success: bool
-    feedback_text: str = ""
+    resolution_feedback: str
+    final_resolution: str = None
 
 
 @router.post("/chat")
@@ -53,14 +54,12 @@ async def chat_with_agent(
         log_id = None
         if not result["cached"]:
             log_id = str(uuid.uuid4())
-            save_inquiry_log({
-                "log_id": log_id,
-                "customer_id": req.customerId or "unknown",
-                "query": req.message,
-                "response": result["text"],
-                "tools_used": result["tool_calls"],
-                "model": result["model_used"]
-            })
+            save_inquiry_log(
+                log_id,
+                req.customerId or "unknown",
+                req.message,
+                result["text"]
+            )
             
         return {
             "response": result["text"],
@@ -116,7 +115,11 @@ async def get_inquiries():
 
 
 @router.post("/feedback")
-async def submit_feedback(req: FeedbackRequest):
+async def submit_feedback(req: FeedbackRequest, background_tasks: BackgroundTasks):
     """Submit success/failure feedback for an AI response."""
-    update_inquiry_log_feedback(req.log_id, req.is_success, req.feedback_text)
+    update_inquiry_log_feedback(req.log_id, req.resolution_feedback, req.final_resolution)
+    
+    if req.resolution_feedback == 'failure' and req.final_resolution:
+        background_tasks.add_task(evolve_knowledge, req.log_id, req.final_resolution)
+        
     return {"status": "success"}

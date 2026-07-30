@@ -123,6 +123,9 @@ def seed_database():
             customer_id VARCHAR(50),
             input_text TEXT,
             ai_action_failed TEXT,
+            resolution_feedback TEXT,
+            final_resolution TEXT,
+            is_learned BOOLEAN DEFAULT FALSE,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
         """,
