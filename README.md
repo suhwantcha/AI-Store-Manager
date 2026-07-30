@@ -1,6 +1,4 @@
-# AI-Store-Manager (WIP)
-
-> **Note: This project is currently under active development (Work In Progress).** Features, architecture, and documentation are subject to change.
+# AI-Store-Manager
 
 AI-Store-Manager is an **Agentic AI Operating System** tailored for solo e-commerce sellers and small business owners. Rather than just providing a dashboard, it seamlessly integrates AI (powered by LangGraph and OpenAI) into standard SaaS menus to act as a proactive business co-pilot and automated customer service agent.
 
@@ -15,6 +13,42 @@ Core AI workflows (multi-agent orchestration, RAG, customer support, CRM analysi
 Some business actions such as shipment processing, review submission, and marketplace integrations are currently represented as UI prototypes and will be connected to external APIs in future versions.
 
 ---
+
+## 🏗️ System Architecture
+
+```mermaid
+graph TD
+    User([Store Owner]) -->|UI Interaction| FE[Frontend<br/>React + MUI]
+    FE <-->|REST API| BE[Backend API<br/>FastAPI]
+    
+    subgraph Backend Core
+        BE <--> DB[(PostgreSQL<br/>Store Data)]
+        BE <--> Orchestrator[Agent Orchestrator<br/>LangGraph]
+        
+        Orchestrator --> CSAgent(CS Agent)
+        Orchestrator --> ManagerAgent(Manager Agent)
+    end
+    
+    subgraph AI Engine & Tools
+        CSAgent <--> RAG[RAG Retriever]
+        RAG <--> ChromaDB[(ChromaDB)]
+        
+        ManagerAgent <--> Tools[Data Tools]
+        Tools <--> DB
+        
+        CSAgent <--> LLM((OpenAI LLM))
+        ManagerAgent <--> LLM
+    end
+    
+    subgraph Self-Evolution
+        FE -.->|Human Feedback| Evo[Evolution Service]
+        Evo -.->|Generate Rule| LLM
+        Evo -.->|Inject Knowledge| ChromaDB
+    end
+```
+
+---
+
 ## Core Philosophy
 - **Subtle but Powerful AI**: AI is embedded naturally into the workflow (e.g., "Operational Insights", "Smart Briefings", "Review Auto-Replies") without overwhelming the user with overly flashy "AI" labels.
 - **Agentic Workflows**: Utilizes LangGraph to orchestrate agents that can proactively fetch data, search manuals (RAG), and execute tasks.
